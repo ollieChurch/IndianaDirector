@@ -38,10 +38,17 @@
                 img-top
             >
                 <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.</b-card-text>
-                <b-button variant="primary" size="lg" block class="mt-2">
-                    Connect On Twitter
-                    <b-icon-twitter class="ms-2"></b-icon-twitter>
-                </b-button>
+                <div class="d-flex justify-content-around">
+                    <b-button variant="primary" size="lg" class="mt-2">
+                        Twitter
+                        <b-icon-twitter class="ms-2"></b-icon-twitter>
+                    </b-button>
+                    <b-button variant="primary" size="lg" class="mt-2">
+                        Email
+                        <b-icon-envelope-fill class="ms-2"></b-icon-envelope-fill>
+                    </b-button>
+                </div>
+                
             </b-card>
         </b-container>
     </div>
