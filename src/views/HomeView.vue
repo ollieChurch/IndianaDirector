@@ -1,18 +1,107 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div>
+        <div class="header bg-info">
+            <b-img
+                thumbnail
+                rounded="circle"
+                :src="profileImg"
+                class="profile-img mt-4"
+            ></b-img>
+        </div>
+        <b-container class="py-4">
+            <h1 class="display-1">
+                Indiana <span class="surname">Lown-Collins</span>
+            </h1>
+            <h2 class="text-muted mb-4"><em>Award-Winning Theatre Director</em></h2>
+            <hr />
+            <b-nav fill class="justify-content-center mt-4 nav">
+                <b-nav-item to="/about">About</b-nav-item>
+                <b-nav-item to="/about">Shows</b-nav-item>
+                <b-nav-item to="/">Contact</b-nav-item>
+            </b-nav>
+        </b-container>
+
+        <b-jumbotron
+            header='"Theatre has given me strength & light in a world that can feel scary and lonely. The power it has of making people feel seen, heard and understood is like no other"'
+            lead="- Indiana Lown-Collins -"
+            fluid
+            class="jmk-jumbotron text-white py-5"
+        >
+            <p class="mt-5">Indiana won the prestigious JMK award for emerging theatre directors in 2022. The above quote is from her acceptance speech.</p>
+            <b-button size="lg" variant="primary" href="#">Find Out More</b-button>
+        </b-jumbotron>
+
+        <b-container class="py-4">
+            <b-card
+                title="About Me"
+                :img-src="lastSupperImg"
+                img-top
+            >
+                <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.</b-card-text>
+                <b-button variant="primary" size="lg" block class="mt-2">
+                    Connect On Twitter
+                    <b-icon-twitter class="ms-2"></b-icon-twitter>
+                </b-button>
+            </b-card>
+        </b-container>
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import profilePic from '../assets/profilePic.jpeg'
+import jmkImage from '../assets/jmk.jpeg' 
+import woodsImage from "../assets/woods.jpeg"
+import globeImage from "../assets/globe.jpeg"
+import lastSupperImage from "../assets/lastSupper.jpeg"
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+
+
+    export default {
+        name: 'HomeView',
+
+        data: function () {
+            return {
+                profileImg: profilePic,
+                jmkImg: jmkImage,
+                woodsImg: woodsImage,
+                globeImg: globeImage,
+                lastSupperImg: lastSupperImage
+            }
+        }
+    }
 </script>
+
+<style scoped>
+    .header {
+        background: rgb(255, 254, 254);
+        background: linear-gradient(
+            0deg,
+            rgba(255, 254, 254, 1) 0 18%,
+            rgba(0, 212, 255, 1) 0 100%
+        );
+    }
+    .profile-img {
+        height: 250px;
+        aspect-ratio: 1/1;
+    }
+
+    .nav {
+        font-size: 1.5rem;
+    }
+
+    .surname {
+        white-space: nowrap;
+    }
+
+    .jmk-jumbotron {
+        background: rgba(0, 0, 0, 0.523);
+        background-image: url(../assets/jmk.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: darken;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+</style>
