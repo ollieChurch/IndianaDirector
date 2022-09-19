@@ -104,7 +104,7 @@ import lastSupperImage from "../assets/lastSupper.jpeg"
     }
 
     .jmk-jumbotron {
-        background: rgba(0, 0, 0, 0.523);
+        background: rgba(0, 0, 0, 0.395);
         background-image: url(../assets/jmk.jpeg);
         background-size: cover;
         background-position: center;
