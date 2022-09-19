@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="header bg-info">
+        <div class="header">
             <b-img
                 thumbnail
                 rounded="circle"
@@ -8,13 +8,13 @@
                 class="profile-img mt-4"
             ></b-img>
         </div>
-        <b-container class="py-4">
+        <b-container class="py-3">
             <h1 class="display-1">
                 Indiana <span class="surname">Lown-Collins</span>
             </h1>
-            <h2 class="text-muted mb-4"><em>Award-Winning Theatre Director</em></h2>
+            <h2 class="text-muted pb-3 mb-4"><em>Award-Winning Theatre Director</em></h2>
             <hr />
-            <b-nav fill class="justify-content-center mt-4 nav">
+            <b-nav fill class="justify-content-center mt-3 nav">
                 <b-nav-item to="/about">About</b-nav-item>
                 <b-nav-item to="/about">Shows</b-nav-item>
                 <b-nav-item to="/">Contact</b-nav-item>
@@ -80,12 +80,15 @@ import lastSupperImage from "../assets/lastSupper.jpeg"
 
 <style scoped>
     .header {
-        background: rgb(255, 254, 254);
-        background: linear-gradient(
+        /* background: linear-gradient(
             0deg,
             rgba(255, 254, 254, 1) 0 18%,
             rgba(0, 212, 255, 1) 0 100%
-        );
+        ); */
+        background: black;
+        background-image: url(../assets/globe.jpeg);
+        background-size: cover;
+        max-height: 230px;
     }
     .profile-img {
         height: 250px;
@@ -109,6 +112,7 @@ import lastSupperImage from "../assets/lastSupper.jpeg"
     }
 
     h1 {
+        margin-top: 2rem;
         margin-bottom: 0;
     }
 </style>
