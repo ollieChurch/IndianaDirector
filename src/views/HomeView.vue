@@ -6,6 +6,7 @@
                 rounded="circle"
                 :src="profileImg"
                 class="profile-img mt-4"
+                alt="Indiana"
             ></b-img>
         </header>
         <b-container>
@@ -23,8 +24,8 @@
                     class="justify-content-center align-items-center nav"
                 >
                     <b-nav-item @click="scrollMeTo('about')">About</b-nav-item>
-                    <b-nav-item to="/">Shows</b-nav-item>
-                    <b-nav-item to="/">Contact</b-nav-item>
+                    <b-nav-item @click="scrollMeTo('shows')">Shows</b-nav-item>
+                    <b-nav-item @click="scrollMeTo('contact')">Contact</b-nav-item>
                 </b-nav>
             </b-container>
         </div>
@@ -40,47 +41,89 @@
                 directors in 2022. The above quote is from her acceptance
                 speech.
             </p>
-            <b-button size="lg" variant="primary" href="#"
+            <b-button size="lg" variant="custom-primary" href="#"
                 >Find Out More</b-button
             >
         </b-jumbotron>
 
-        <b-container ref="about" class="py-4">
-            <b-card title="About Me" :img-src="lastSupperImg" img-top>
-                <b-card-text
-                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Sed in orci eu velit commodo cursus. Vestibulum vitae
-                    blandit magna. Aenean ac tincidunt nisl. Integer efficitur
-                    viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor
-                    molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla
-                    maximus iaculis lacus eget blandit. Donec lacus nisl,
-                    dignissim sed ullamcorper cursus, iaculis convallis sem. Nam
-                    varius odio et bibendum auctor. Duis ut efficitur
-                    felis.</b-card-text
+        <div ref="about">
+            <b-img
+                :src="lastSupperImg"
+                class="about-img"
+                alt="Indiana gives notes during rehearsal for The Last Supper"
+            ></b-img>
+            <b-container class="pt-3 pb-4">
+                    <h2 class="display-2">About Indiana</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.
+                    </p>
+                    <div class="d-flex justify-content-around">
+                        <b-button variant="custom-primary" size="lg" class="mt-2">
+                            Twitter
+                            <b-icon-twitter class="ms-2"></b-icon-twitter>
+                        </b-button>
+                        <b-button variant="custom-primary" size="lg" class="mt-2">
+                            Email
+                            <b-icon-envelope-fill
+                                class="ms-2"
+                            ></b-icon-envelope-fill>
+                        </b-button>
+                    </div>
+            </b-container>
+        </div>
+        
+
+        <div class="py-4 featured-shows-wrapper bg-opacity-50"> 
+            <b-container ref="shows">
+                <h2 class="display-2">Featured Shows</h2>
+                <b-card 
+                    v-for="show in featuredShows" 
+                    :key="`${show.title}-card`" 
+                    :title="show.title" 
+                    :img-src="show.image" 
+                    :img-alt="show.imageAlt" 
+                    img-top
+                    class="my-3"
                 >
-                <div class="d-flex justify-content-around">
-                    <b-button variant="primary" size="lg" class="mt-2">
-                        Twitter
-                        <b-icon-twitter class="ms-2"></b-icon-twitter>
-                    </b-button>
-                    <b-button variant="primary" size="lg" class="mt-2">
-                        Email
-                        <b-icon-envelope-fill
-                            class="ms-2"
-                        ></b-icon-envelope-fill>
-                    </b-button>
+                    <b-card-sub-title class="mb-3">{{ show.company }}</b-card-sub-title>
+                    <b-card-text>{{ show.description }}</b-card-text>
+                    <b-card-text class="small">Image Copyright: {{ show.imageCopyright }}</b-card-text>
+                </b-card>
+                <b-button dark size="lg" variant="custom-primary" class="my-4">
+                    See Full CV
+                    <b-icon-file-earmark-medical-fill class="ms-2"></b-icon-file-earmark-medical-fill>
+                </b-button>
+            </b-container>
+        </div> 
+        
+        <div class="pt-4 pb-3 footer-wrapper">
+            <b-container ref="contact">
+                <h2 class="display-2 text-white">Get In Touch</h2>
+                <b-form>
+                    <b-input class="my-3" placeholder="Name"></b-input>
+                    <b-input class="my-3" placeholder="Email"></b-input>
+                    <b-textarea class="my-3" placeholder="Message"></b-textarea>
+                    <b-button variant="custom-primary">Submit</b-button>
+                </b-form>
+
+                <div class="site-info mt-4">
+                    <p class="my-0">Copyright 2022</p>
+                    <p class="my-0">Website built and maintained by Ollie C</p>
                 </div>
-            </b-card>
-        </b-container>
+            </b-container>
+        </div>
     </div>
 </template>
 
 <script>
     import profilePic from '../assets/profilePic.jpeg'
     import jmkImage from '../assets/jmk.jpeg'
-    import woodsImage from '../assets/woods.jpeg'
     import globeImage from '../assets/globe.jpeg'
     import lastSupperImage from '../assets/lastSupper.jpeg'
+    import juliusImage from '../assets/juliusCaesar.jpeg'
+    import purplePrincessImage from '../assets/purplePrincess.jpeg'
+    import solidLifeImage from '../assets/solidLife.jpeg'
+
 
     export default {
         name: 'HomeView',
@@ -89,16 +132,41 @@
             return {
                 profileImg: profilePic,
                 jmkImg: jmkImage,
-                woodsImg: woodsImage,
                 globeImg: globeImage,
-                lastSupperImg: lastSupperImage
+                lastSupperImg: lastSupperImage,
+                featuredShows: [
+                    {
+                        title: "The Solid Life Of Sugar Water",
+                        company: "The Orange Tree Theatre",
+                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.",
+                        image: solidLifeImage,
+                        imageAlt: "The Solid Life of Sugar Water promotional poster. View underwater a male and female tread water. We cannot see their faces",
+                        imageCopyright: "John Smith"
+                    },
+                    {
+                        title: "The Purple Princess",
+                        company: "Guildford Shakespeare Company",
+                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.",
+                        image: purplePrincessImage,
+                        imageAlt: "the audience at the globe theatre",
+                        imageCopyright: "John Smith"
+                    },
+                    {
+                        title: "Julius Caesar",
+                        company: "Shakespeare's Globe",
+                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.",
+                        image: juliusImage,
+                        imageAlt: "the audience at the globe theatre",
+                        imageCopyright: "John Smith"
+                    }
+                ]
             }
         },
 
         methods: {
             scrollMeTo(refName) {
                 const element = this.$refs[refName]
-                const top = element.offsetTop
+                const top = element.offsetTop - 100
 
                 window.scrollTo(0, top)
             }
@@ -112,6 +180,17 @@
         background-image: url(../assets/globe.jpeg);
         background-size: cover;
         max-height: 230px;
+    }
+
+    .btn-custom-primary {
+        background: #ff7777;
+        color: white;
+    }
+
+    .btn-custom-primary:hover,
+    .btn-custom-primary:focus {
+        background: #c85d5d !important;
+        color: white !important;
     }
 
     .profile-img {
@@ -137,10 +216,29 @@
     }
 
     .jmk-jumbotron {
-        background: rgba(0, 0, 0, 0.395);
+        background: rgba(0, 50, 61, 0.698);
         background-image: url(../assets/jmk.jpeg);
         background-size: cover;
         background-position: center;
         background-blend-mode: darken;
+    }
+
+    .about-img {
+        overflow: hidden;
+        object-fit: contain;
+        max-width: 100%;
+    }
+
+    .featured-shows-wrapper {
+        background: #fecf95;
+    }
+
+    .footer-wrapper {
+        background: #00303b;
+    }
+
+    .site-info {
+        color: white;
+        opacity: .5;
     }
 </style>
