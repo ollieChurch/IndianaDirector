@@ -41,9 +41,14 @@
                 directors in 2022. The above quote is from her acceptance
                 speech.
             </p>
-            <b-button size="lg" variant="custom-primary" href="#"
-                >Find Out More</b-button
+            <b-button 
+                size="lg" 
+                variant="custom-primary" 
+                href="https://www.jmktrust.org/2022/07/jmk-award-winner-2022/"
+                target="_blank"
             >
+                Find Out More
+            </b-button>
         </b-jumbotron>
 
         <div class="row" ref="about">
@@ -62,11 +67,22 @@
                     </p>
                 
                     <div class="d-flex justify-content-around">
-                        <b-button variant="custom-primary" size="lg" class="mt-2">
+                        <b-button 
+                            variant="custom-primary" 
+                            size="lg" 
+                            class="mt-2" 
+                            href="https://twitter.com/indianalown" 
+                            target="_blank"
+                        >
                             Twitter
                             <b-icon-twitter class="ms-2"></b-icon-twitter>
                         </b-button>
-                        <b-button variant="custom-primary" size="lg" class="mt-2">
+                        <b-button 
+                            variant="custom-primary" 
+                            size="lg" 
+                            class="mt-2"
+                            @click="scrollMeTo('contact')"
+                        >
                             Email
                             <b-icon-envelope-fill
                                 class="ms-2"
@@ -102,7 +118,13 @@
                     
                 </div>
                 
-                <b-button size="lg" variant="custom-secondary" class="my-4">
+                <b-button 
+                    size="lg" 
+                    variant="custom-secondary" 
+                    class="my-4" 
+                    href="https://www.linkedin.com/in/indiana-lown-collins" 
+                    target="_blank"
+                >
                     See Full CV
                     <b-icon-file-earmark-medical-fill class="ms-2"></b-icon-file-earmark-medical-fill>
                 </b-button>
