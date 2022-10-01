@@ -134,11 +134,31 @@
         <div class="pt-4 pb-3 footer-wrapper">
             <b-container ref="contact">
                 <h2 class="display-2 text-white">Get In Touch</h2>
-                <b-form class="contact-form">
-                    <b-input class="my-3" placeholder="Name" v-model="contactForm.name"></b-input>
-                    <b-input class="my-3" placeholder="Email" v-model="contactForm.email"></b-input>
-                    <b-textarea class="my-3" placeholder="Message" v-model="contactForm.message"></b-textarea>
-                    <b-button variant="custom-primary" @click="handleSubmit">Submit</b-button>
+                <b-form 
+                    class="contact-form" 
+                    name="contact" 
+                    method="post"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                >
+                    <input type="hidden" name="form-name" value="contact" />
+                    <b-input 
+                        class="my-3" 
+                        placeholder="Name" 
+                        name="name" 
+                        autocomplete="name" 
+                        v-model="contactForm.name"
+                    ></b-input>
+                    <b-input 
+                        class="my-3" 
+                        placeholder="Email" 
+                        name="email" 
+                        type="email" 
+                        autocomplete="email" 
+                        v-model="contactForm.email"
+                    ></b-input>
+                    <b-textarea class="my-3" placeholder="Message" name="message" v-model="contactForm.message"></b-textarea>
+                    <b-button variant="custom-primary" type="submit">Submit</b-button>
                 </b-form>
 
                 <div class="site-info mt-4">
