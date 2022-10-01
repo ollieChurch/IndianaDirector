@@ -46,17 +46,21 @@
             >
         </b-jumbotron>
 
-        <div ref="about">
-            <b-img
-                :src="lastSupperImg"
-                class="about-img"
-                alt="Indiana gives notes during rehearsal for The Last Supper"
-            ></b-img>
-            <b-container class="pt-3 pb-4">
+        <div class="row" ref="about">
+            <div class="col-md">
+                <b-img
+                    :src="lastSupperImg"
+                    class="about-img"
+                    alt="Indiana gives notes during rehearsal for The Last Supper"
+                ></b-img>
+            </div>
+            <div class="col-md">
+                <b-container class="py-5 ps-md-1 pe-md-4">
                     <h2 class="display-2">About Indiana</h2>
-                    <p>
+                    <p class="pt-2 pb-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.
                     </p>
+                
                     <div class="d-flex justify-content-around">
                         <b-button variant="custom-primary" size="lg" class="mt-2">
                             Twitter
@@ -69,27 +73,36 @@
                             ></b-icon-envelope-fill>
                         </b-button>
                     </div>
-            </b-container>
+                </b-container>
+            </div>
         </div>
         
-
         <div class="py-4 featured-shows-wrapper bg-opacity-50"> 
             <b-container ref="shows">
                 <h2 class="display-2">Featured Shows</h2>
-                <b-card 
-                    v-for="show in featuredShows" 
-                    :key="`${show.title}-card`" 
-                    :title="show.title" 
-                    :img-src="show.image" 
-                    :img-alt="show.imageAlt" 
-                    img-top
-                    class="my-3"
-                >
-                    <b-card-sub-title class="mb-3">{{ show.company }}</b-card-sub-title>
-                    <b-card-text>{{ show.description }}</b-card-text>
-                    <b-card-text class="small">Image Copyright: {{ show.imageCopyright }}</b-card-text>
-                </b-card>
-                <b-button dark size="lg" variant="custom-primary" class="my-4">
+                <div class="row">
+                    <div class="col-lg my-3" v-for="show in featuredShows" :key="`${show.title}-card`" >
+                        <b-card 
+                            :img-src="show.image" 
+                            :img-alt="show.imageAlt" 
+                            img-top
+                            class="featured-show-card "
+                        >
+                            <b-card-body class="d-flex flex-column justify-content-between featured-show-card">
+                                <div>
+                                    <b-card-title>{{ show.title }}</b-card-title>
+                                    <b-card-sub-title class="mb-3">{{ show.company }}</b-card-sub-title>
+                                </div>
+
+                                <b-card-text>{{ show.description }}</b-card-text>
+                                <b-card-text class="small">Image Copyright: {{ show.imageCopyright }}</b-card-text>
+                            </b-card-body>
+                        </b-card>
+                    </div>
+                    
+                </div>
+                
+                <b-button size="lg" variant="custom-secondary" class="my-4">
                     See Full CV
                     <b-icon-file-earmark-medical-fill class="ms-2"></b-icon-file-earmark-medical-fill>
                 </b-button>
@@ -99,11 +112,11 @@
         <div class="pt-4 pb-3 footer-wrapper">
             <b-container ref="contact">
                 <h2 class="display-2 text-white">Get In Touch</h2>
-                <b-form>
-                    <b-input class="my-3" placeholder="Name"></b-input>
-                    <b-input class="my-3" placeholder="Email"></b-input>
-                    <b-textarea class="my-3" placeholder="Message"></b-textarea>
-                    <b-button variant="custom-primary">Submit</b-button>
+                <b-form class="contact-form">
+                    <b-input class="my-3" placeholder="Name" v-model="contactForm.name"></b-input>
+                    <b-input class="my-3" placeholder="Email" v-model="contactForm.email"></b-input>
+                    <b-textarea class="my-3" placeholder="Message" v-model="contactForm.message"></b-textarea>
+                    <b-button variant="custom-primary" @click="handleSubmit">Submit</b-button>
                 </b-form>
 
                 <div class="site-info mt-4">
@@ -138,7 +151,7 @@
                     {
                         title: "The Solid Life Of Sugar Water",
                         company: "The Orange Tree Theatre",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.",
+                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl.",
                         image: solidLifeImage,
                         imageAlt: "The Solid Life of Sugar Water promotional poster. View underwater a male and female tread water. We cannot see their faces",
                         imageCopyright: "John Smith"
@@ -146,7 +159,7 @@
                     {
                         title: "The Purple Princess",
                         company: "Guildford Shakespeare Company",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.",
+                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis.",
                         image: purplePrincessImage,
                         imageAlt: "the audience at the globe theatre",
                         imageCopyright: "John Smith"
@@ -159,7 +172,12 @@
                         imageAlt: "the audience at the globe theatre",
                         imageCopyright: "John Smith"
                     }
-                ]
+                ],
+                contactForm: {
+                    name: "",
+                    email: "",
+                    message: ""
+                }
             }
         },
 
@@ -169,6 +187,10 @@
                 const top = element.offsetTop - 100
 
                 window.scrollTo(0, top)
+            },
+
+            handleSubmit() {
+                console.log(this.contactForm)
             }
         }
     }
@@ -190,6 +212,17 @@
     .btn-custom-primary:hover,
     .btn-custom-primary:focus {
         background: #c85d5d !important;
+        color: white !important;
+    }
+
+    .btn-custom-secondary {
+        background: #00303b;
+        color: white;
+    }
+
+    .btn-custom-secondary:hover,
+    .btn-custom-secondary:focus {
+        background: #015669 !important;
         color: white !important;
     }
 
@@ -225,16 +258,26 @@
 
     .about-img {
         overflow: hidden;
-        object-fit: contain;
-        max-width: 100%;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
 
     .featured-shows-wrapper {
         background: #fecf95;
     }
 
+    .featured-show-card {
+        height: 100%;
+    }
+
     .footer-wrapper {
         background: #00303b;
+    }
+
+    .contact-form {
+        max-width: 650px;
+        margin: 0 auto;
     }
 
     .site-info {
