@@ -13,11 +13,12 @@
             <h1 class="display-1 mt-5 mb-0">
                 Indiana <span class="surname">Lown-Collins</span>
             </h1>
-            <h2 class="text-muted pb-3 mb-4">
+            <h2 class="text-muted pb-3 mb-3">
                 <em>Award-Winning Theatre Director</em>
             </h2>
         </b-container>
         <div class="sticky-nav py-3">
+            <div class="nav-top"></div>
             <b-container>
                 <b-nav
                     fill
@@ -25,6 +26,7 @@
                 >
                     <b-nav-item @click="scrollMeTo('about')">About</b-nav-item>
                     <b-nav-item @click="scrollMeTo('shows')">Shows</b-nav-item>
+                    <b-nav-item @click="scrollMeTo('press')">Press</b-nav-item>
                     <b-nav-item @click="scrollMeTo('contact')">Contact</b-nav-item>
                 </b-nav>
             </b-container>
@@ -66,11 +68,11 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.
                     </p>
                 
-                    <div class="d-flex justify-content-around">
+                    <div class="d-flex-sm justify-content-around">
                         <b-button 
                             variant="custom-primary" 
                             size="lg" 
-                            class="mt-2" 
+                            class="m-2" 
                             href="https://twitter.com/indianalown" 
                             target="_blank"
                         >
@@ -80,13 +82,11 @@
                         <b-button 
                             variant="custom-primary" 
                             size="lg" 
-                            class="mt-2"
+                            class="m-2"
                             @click="scrollMeTo('contact')"
                         >
                             Email
-                            <b-icon-envelope-fill
-                                class="ms-2"
-                            ></b-icon-envelope-fill>
+                            <b-icon-envelope-fill class="ms-2"></b-icon-envelope-fill>
                         </b-button>
                     </div>
                 </b-container>
@@ -102,9 +102,9 @@
                             :img-src="show.image" 
                             :img-alt="show.imageAlt" 
                             img-top
-                            class="featured-show-card "
+                            class="featured-show-card featured-show-card-height"
                         >
-                            <b-card-body class="d-flex flex-column justify-content-between featured-show-card">
+                            <b-card-body class="d-flex flex-column justify-content-between featured-show-card-height">
                                 <div>
                                     <b-card-title>{{ show.title }}</b-card-title>
                                     <b-card-sub-title class="mb-3">{{ show.company }}</b-card-sub-title>
@@ -130,6 +130,25 @@
                 </b-button>
             </b-container>
         </div> 
+
+        <div ref="press">
+            <b-container class="py-4 px-4 px-md-0">
+                <h2 class="display-2">Press & Articles</h2>
+                <div class="row justify-content-center py-3 px-2 my-3 press-card">
+                    <div class="col-sm align-self-center">
+                        <b-card-title class="press-text">"This is a key quote from the article"<span class="text-muted small"> this is the publisher</span></b-card-title>
+                    </div>
+                    <b-button class="col-sm-2 mt-2 mt-sm-0 align-self-center" variant="custom-primary">Read</b-button>
+                </div>
+
+                <div class="row justify-content-center py-3 px-2 my-3 press-card">
+                    <div class="col-sm align-self-center">
+                        <b-card-title class="press-text">"This is a longer key quote from the article which is really good"<span class="text-muted small"> publisher</span></b-card-title>
+                    </div>
+                    <b-button class="col-sm-2 mt-2 mt-sm-0 align-self-center" variant="custom-primary">Read</b-button>
+                </div>
+            </b-container>
+        </div>
         
         <div class="pt-4 pb-3 footer-wrapper">
             <b-container ref="contact">
@@ -310,7 +329,22 @@
     }
 
     .featured-show-card {
+        border: 1px solid #00303b;
+        box-shadow: 0px 1px 5px #00303b;
+    }
+
+    .featured-show-card-height {
         height: 100%;
+    }
+
+    .press-card {
+        border-radius: 10px;
+        border: 2px solid #00303b;
+        box-shadow: 0px 1px 5px #00303b;
+    }
+
+    .press-text {
+        text-align: left;
     }
 
     .footer-wrapper {
