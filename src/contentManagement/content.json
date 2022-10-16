@@ -13,6 +13,22 @@
       "showImageSrc": "/public/admin/imageUploads/solidlife.jpeg",
       "showImageAlt": "Underwater shot of two people swimming in clothes for poster of The Solid Life Of Sugar Water",
       "showImageCopyright": "The Orange Tree Theatre"
+    },
+    {
+      "showTitle": "The Purple Princess",
+      "showCompany": "Guildford Shakespeare Company",
+      "showText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl.",
+      "showImageSrc": "/public/admin/imageUploads/purpleprincess.jpeg",
+      "showImageAlt": "Cartoon of princess inviting you to join her on the modern day train",
+      "showImageCopyright": "Guildford Shakespeare Company"
+    },
+    {
+      "showTitle": "Julius Caesar",
+      "showCompany": "Shakespeare's Globe",
+      "showText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl.",
+      "showImageSrc": "/public/admin/imageUploads/juliuscaesar.jpeg",
+      "showImageAlt": "A woman sites with a red cape surrounded by rose petals",
+      "showImageCopyright": "Shakespeare's Globe"
     }
   ]
 }
