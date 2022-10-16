@@ -36,7 +36,7 @@ collections:
               - {label: "Publisher", name: "pressPublisher", widget: "string"}
               - {label: "Link", name: "pressLink", widget: "string"}
               
-site_url: https://ilcdirector.netlify.app
+site_url: https://indianalown-collins.netlify.app
 
 # Copyright (c) 2016 Netlify <team@netlify.com>
 
