@@ -30,5 +30,17 @@
       "showImageAlt": "A woman sites with a red cape surrounded by rose petals",
       "showImageCopyright": "Shakespeare's Globe"
     }
+  ],
+  "pressList": [
+    {
+      "pressQuote": "This is a quote about how amazing I am",
+      "pressPublisher": "The press publisher",
+      "pressLink": "https://google.com"
+    },
+    {
+      "pressQuote": "This is an even longer quote about how amazing and brilliant and charming I am",
+      "pressPublisher": "publisher",
+      "pressLink": "https://facebook.com"
+    }
   ]
 }
