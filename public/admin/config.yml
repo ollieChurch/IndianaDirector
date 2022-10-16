@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "assets/uploads"
+media_folder: "/src/contentManagement/images"
 
 collections:
   - label: "Content Management"
@@ -10,12 +10,11 @@ collections:
     files:
       - label: "Edit site content"
         name: "site"
-        file: "content.json"
+        file: "/src/contentManagement/content.json"
         fields:
           - {label: "Profile Image", name: "profileImage", widget: "image"}
           - {label: "Twitter Link", name: "twitterLink", widget: "string"}
           - {label: "CV Link", name: "cvLink", widget: "string"}
-          - {label: "Email", name: "emailAddress", widget: "string"}
           - {label: "About Me", name: "aboutMeText", widget: "string"}
           - label: "Featured Shows"
             name: "featuredShowsList"
