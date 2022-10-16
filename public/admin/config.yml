@@ -15,12 +15,15 @@ collections:
           - {label: "Profile Image", name: "profileImage", widget: "image"}
           - {label: "Twitter Link", name: "twitterLink", widget: "string"}
           - {label: "CV Link", name: "cvLink", widget: "string"}
-          - {label: "About Me", name: "aboutMeText", widget: "string"}
+          - {label: "About Me Text", name: "aboutMeText", widget: "string"}
+          - {label: "About Me Image", name: "aboutMeImage", widget: "image"}
+          - {label: "About Me Image Alt Text", name: "aboutMeImageAlt", widget: "string"}
           - label: "Featured Shows"
             name: "featuredShowsList"
             widget: "list"
             fields:
               - {label: "Show Title", name: "showTitle", widget: "string"}
+              - {label: "Show Company", name: "showCompany", widget: "string"}
               - {label: "About the Show", name: "showText", widget: "string"}
               - {label: "Image Upload", name: "showImageSrc", widget: "image"}
               - {label: "Image Alt Text", name: "showImageAlt", widget: "string"}
