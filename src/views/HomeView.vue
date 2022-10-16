@@ -33,7 +33,7 @@
         </div>
 
         <b-jumbotron
-            header='"Theatre has given me strength & light in a world that can feel scary and lonely. The power it has of making people feel seen, heard and understood is like no other"'
+            header="Theatre has given me strength & light in a world that can feel scary and lonely. The power it has of making people feel seen, heard and understood is like no other"
             lead="- Indiana Lown-Collins -"
             fluid
             class="jmk-jumbotron text-white py-5"
