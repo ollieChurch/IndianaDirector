@@ -190,21 +190,26 @@
 </template>
 
 <script>
-    import profilePic from '../assets/profilePic.jpeg'
+    import defaultProfilePic from '../assets/profilePic.jpeg'
     import jmkImage from '../assets/jmk.jpeg'
     import globeImage from '../assets/globe.jpeg'
     import lastSupperImage from '../assets/lastSupper.jpeg'
     import juliusImage from '../assets/juliusCaesar.jpeg'
     import purplePrincessImage from '../assets/purplePrincess.jpeg'
     import solidLifeImage from '../assets/solidLife.jpeg'
+    import contentJson from '../contentManagement/content.json'
 
 
     export default {
         name: 'HomeView',
 
+        mounted() {
+            console.log(this.content)
+        },
+
         data: function () {
             return {
-                profileImg: profilePic,
+                content: contentJson,
                 jmkImg: jmkImage,
                 globeImg: globeImage,
                 lastSupperImg: lastSupperImage,
@@ -239,6 +244,13 @@
                     email: "",
                     message: ""
                 }
+            }
+        },
+
+        computed: { 
+            profileImg() {
+                const userUpload = this.content.profileImage
+                return userUpload ? userUpload.split("/public").join('') : defaultProfilePic
             }
         },
 
