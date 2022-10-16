@@ -2,5 +2,17 @@
   "profileImage": "/public/admin/imageUploads/1l9wmwti_400x400.jpeg",
   "twitterLink": "https://twitter.com/indianalown",
   "cvLink": "https://www.linkedin.com/in/indiana-lown-collins",
-  "aboutMeText": "this is a test"
+  "aboutMeText": "                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.",
+  "aboutMeImage": "/public/admin/imageUploads/lastsupper.jpeg",
+  "aboutMeImageAlt": "Indiana gives notes at a rehearsal",
+  "featuredShowsList": [
+    {
+      "showTitle": "The Solid Life Of Sugar Water",
+      "showCompany": "The Orange Tree Theatre",
+      "showText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl.",
+      "showImageSrc": "/public/admin/imageUploads/solidlife.jpeg",
+      "showImageAlt": "Underwater shot of two people swimming in clothes for poster of The Solid Life Of Sugar Water",
+      "showImageCopyright": "The Orange Tree Theatre"
+    }
+  ]
 }
