@@ -56,7 +56,7 @@
         <div class="row" ref="about">
             <div class="col-md">
                 <b-img
-                    :src="lastSupperImg"
+                    :src="aboutMeImg"
                     class="about-img"
                     alt="Indiana gives notes during rehearsal for The Last Supper"
                 ></b-img>
@@ -64,16 +64,14 @@
             <div class="col-md">
                 <b-container class="py-5 ps-md-1 pe-md-4">
                     <h2 class="display-2">About Indiana</h2>
-                    <p class="pt-2 pb-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.
-                    </p>
+                    <p class="pt-2 pb-3">{{ content.aboutMeText }}</p>
                 
                     <div class="d-flex-sm justify-content-around">
                         <b-button 
                             variant="custom-primary" 
                             size="lg" 
                             class="m-2" 
-                            href="https://twitter.com/indianalown" 
+                            :href="content.twitterLink" 
                             target="_blank"
                         >
                             Twitter
@@ -97,21 +95,21 @@
             <b-container ref="shows">
                 <h2 class="display-2">Featured Shows</h2>
                 <div class="row">
-                    <div class="col-lg my-3" v-for="show in featuredShows" :key="`${show.title}-card`" >
+                    <div class="col-lg my-3" v-for="show in content.featuredShowsList" :key="`${show.showTitle}-card`" >
                         <b-card 
-                            :img-src="show.image" 
-                            :img-alt="show.imageAlt" 
+                            :img-src="imageSrc(show.showImageSrc)" 
+                            :img-alt="show.showImageAlt" 
                             img-top
                             class="featured-show-card featured-show-card-height"
                         >
                             <b-card-body class="d-flex flex-column justify-content-between featured-show-card-height">
                                 <div>
-                                    <b-card-title>{{ show.title }}</b-card-title>
-                                    <b-card-sub-title class="mb-3">{{ show.company }}</b-card-sub-title>
+                                    <b-card-title>{{ show.showTitle }}</b-card-title>
+                                    <b-card-sub-title class="mb-3">{{ show.showCompany }}</b-card-sub-title>
                                 </div>
 
-                                <b-card-text>{{ show.description }}</b-card-text>
-                                <b-card-text class="small">Image Copyright: {{ show.imageCopyright }}</b-card-text>
+                                <b-card-text>{{ show.showText }}</b-card-text>
+                                <b-card-text class="small">Image Copyright: {{ show.showImageCopyright }}</b-card-text>
                             </b-card-body>
                         </b-card>
                     </div>
@@ -122,7 +120,7 @@
                     size="lg" 
                     variant="custom-secondary" 
                     class="my-4" 
-                    href="https://www.linkedin.com/in/indiana-lown-collins" 
+                    :href="content.cvLink" 
                     target="_blank"
                 >
                     See Full CV
@@ -134,18 +132,22 @@
         <div ref="press">
             <b-container class="py-4 px-4 px-md-0">
                 <h2 class="display-2">Press & Articles</h2>
-                <div class="row justify-content-center py-3 px-2 my-3 press-card">
+                <div 
+                    v-for="article, index in content.pressList" 
+                    :key="`press-card-${index}`" 
+                    class="row justify-content-center py-3 px-2 my-3 press-card"
+                >
                     <div class="col-sm align-self-center">
-                        <b-card-title class="press-text">"This is a key quote from the article"<span class="text-muted small"> this is the publisher</span></b-card-title>
+                        <b-card-title class="press-text">
+                            "{{ article.pressQuote }}"<span class="text-muted small"> {{ article.pressPublisher }}</span>
+                        </b-card-title>
                     </div>
-                    <b-button class="col-sm-2 mt-2 mt-sm-0 align-self-center" variant="custom-primary">Read</b-button>
-                </div>
-
-                <div class="row justify-content-center py-3 px-2 my-3 press-card">
-                    <div class="col-sm align-self-center">
-                        <b-card-title class="press-text">"This is a longer key quote from the article which is really good"<span class="text-muted small"> publisher</span></b-card-title>
-                    </div>
-                    <b-button class="col-sm-2 mt-2 mt-sm-0 align-self-center" variant="custom-primary">Read</b-button>
+                    <b-button 
+                        class="col-sm-2 mt-2 mt-sm-0 align-self-center" 
+                        variant="custom-primary" 
+                        :href="article.pressLink"
+                        target="_blank"
+                    >Read</b-button>
                 </div>
             </b-container>
         </div>
@@ -193,52 +195,18 @@
     import defaultProfilePic from '../assets/profilePic.jpeg'
     import jmkImage from '../assets/jmk.jpeg'
     import globeImage from '../assets/globe.jpeg'
-    import lastSupperImage from '../assets/lastSupper.jpeg'
-    import juliusImage from '../assets/juliusCaesar.jpeg'
-    import purplePrincessImage from '../assets/purplePrincess.jpeg'
-    import solidLifeImage from '../assets/solidLife.jpeg'
+    import defaultAboutPic from '../assets/lastSupper.jpeg'
     import contentJson from '../contentManagement/content.json'
 
 
     export default {
         name: 'HomeView',
 
-        mounted() {
-            console.log(this.content)
-        },
-
         data: function () {
             return {
                 content: contentJson,
                 jmkImg: jmkImage,
                 globeImg: globeImage,
-                lastSupperImg: lastSupperImage,
-                featuredShows: [
-                    {
-                        title: "The Solid Life Of Sugar Water",
-                        company: "The Orange Tree Theatre",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl.",
-                        image: solidLifeImage,
-                        imageAlt: "The Solid Life of Sugar Water promotional poster. View underwater a male and female tread water. We cannot see their faces",
-                        imageCopyright: "John Smith"
-                    },
-                    {
-                        title: "The Purple Princess",
-                        company: "Guildford Shakespeare Company",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis.",
-                        image: purplePrincessImage,
-                        imageAlt: "the audience at the globe theatre",
-                        imageCopyright: "John Smith"
-                    },
-                    {
-                        title: "Julius Caesar",
-                        company: "Shakespeare's Globe",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci eu velit commodo cursus. Vestibulum vitae blandit magna. Aenean ac tincidunt nisl. Integer efficitur viverra turpis ac volutpat. Quisque at ipsum ut nisl tempor molestie. Aenean lobortis ipsum nec blandit iaculis. Nulla maximus iaculis lacus eget blandit. Donec lacus nisl, dignissim sed ullamcorper cursus, iaculis convallis sem. Nam varius odio et bibendum auctor. Duis ut efficitur felis.",
-                        image: juliusImage,
-                        imageAlt: "the audience at the globe theatre",
-                        imageCopyright: "John Smith"
-                    }
-                ],
                 contactForm: {
                     name: "",
                     email: "",
@@ -251,6 +219,11 @@
             profileImg() {
                 const userUpload = this.content.profileImage
                 return userUpload ? userUpload.split("/public").join('') : defaultProfilePic
+            },
+
+            aboutMeImg() {
+                const userUpload = this.content.aboutMeImage
+                return userUpload ? userUpload.split("/public").join('') : defaultAboutPic
             }
         },
 
@@ -264,6 +237,10 @@
 
             handleSubmit() {
                 console.log(this.contactForm)
+            },
+
+            imageSrc(image) {
+                return image.split("/public").join('')
             }
         }
     }
