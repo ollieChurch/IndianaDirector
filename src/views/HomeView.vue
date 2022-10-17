@@ -184,7 +184,7 @@
 
                 <div class="site-info mt-4">
                     <p class="my-0">Copyright 2022</p>
-                    <p class="my-0">Website built and maintained by Ollie C</p>
+                    <a class="my-0 site-info" href="https://olliechurch.co.uk" target="_blank">Website built and maintained by Ollie C</a>
                 </div>
             </b-container>
         </div>
@@ -346,7 +346,7 @@
     }
 
     .site-info {
-        color: white;
-        opacity: .5;
+        color: white !important;
+        opacity: .75;
     }
 </style>
