@@ -26,7 +26,7 @@
                 >
                     <b-nav-item @click="scrollMeTo('about')">About</b-nav-item>
                     <b-nav-item @click="scrollMeTo('shows')">Shows</b-nav-item>
-                    <b-nav-item @click="scrollMeTo('press')">Press</b-nav-item>
+                    <b-nav-item v-if="content.pressList && content.pressList.length > 0" @click="scrollMeTo('press')">Press</b-nav-item>
                     <b-nav-item @click="scrollMeTo('contact')">Contact</b-nav-item>
                 </b-nav>
             </b-container>
@@ -129,7 +129,7 @@
             </b-container>
         </div> 
 
-        <div ref="press">
+        <div ref="press" v-if="content.pressList && content.pressList.length > 0">
             <b-container class="py-4 px-4 px-md-0">
                 <h2 class="display-2">Press & Articles</h2>
                 <div 
