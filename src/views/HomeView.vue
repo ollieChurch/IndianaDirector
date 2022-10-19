@@ -26,7 +26,7 @@
                 >
                     <b-nav-item @click="scrollMeTo('about')">About</b-nav-item>
                     <b-nav-item @click="scrollMeTo('shows')">Shows</b-nav-item>
-                    <b-nav-item v-if="content.pressList && content.pressList.length > 0" @click="scrollMeTo('press')">Press</b-nav-item>
+                    <b-nav-item v-if='content.pressList && content.pressList.length > 0' @click="scrollMeTo('press')">Press</b-nav-item>
                     <b-nav-item @click="scrollMeTo('contact')">Contact</b-nav-item>
                 </b-nav>
             </b-container>
