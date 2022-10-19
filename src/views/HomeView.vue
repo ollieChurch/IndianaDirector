@@ -116,7 +116,14 @@
                     
                 </div>
                 
-                <b-button 
+                <h2 class="display-2">Credits</h2>
+                <p>
+                    As a director, Indiana Lown-Collins’s credits include: The Purple Princess (Guildford Shakespeare Company) a devised TIE tour raising awareness of hidden disabilities based on her own life experiences; The Last Supper (Fresh Direction ‘Replay Project’ The Young Vic).
+                </p>
+                <p>
+                    Other credits include: Assistant Director on Julius Caesar (Shakespeare’s Globe), Movement Director on The Tales of Hans Christian Andersen (GSC); Associate Director on Merrily We Roll Along (Yvonne Arnaud Theatre); Assistant Director on All’s Well That Ends Well (Jermyn Street Theatre), Cinderella (Yvonne Arnaud Theatre); A Woman Alone (Etcetera Theatre); All Aboard (Electric Theatre); Language coach on Strictly Ballroom the Musical (Leeds Playhouse). Indiana was the Assistant Director and Producer at the Guildford Shakespeare Company (2019-2021) where she was Associate Director on Macbeth; Assistant director on As You Like It, She Stoops to Conquer, The Merry Wives of Windsor, Twelfth Night, Robin Hood, Alice and Wonderland, Romeo and Juliet and The Legend of King Arthur.
+                </p>
+                <!-- <b-button 
                     size="lg" 
                     variant="custom-secondary" 
                     class="my-4" 
@@ -125,7 +132,7 @@
                 >
                     See Full CV
                     <b-icon-file-earmark-medical-fill class="ms-2"></b-icon-file-earmark-medical-fill>
-                </b-button>
+                </b-button> -->
             </b-container>
         </div> 
 
