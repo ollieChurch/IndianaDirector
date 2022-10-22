@@ -32,7 +32,7 @@ collections:
             name: "credits"
             fields:
               - {label: "Director", name: "director", widget: "string"}
-              - {label: "Assistant Director", name: "assistant", widget: "string"}
+              - {label: "Other Credits", name: "other", widget: "string"}
           - label: "Press & Articles"
             name: "pressList"
             widget: "list"
