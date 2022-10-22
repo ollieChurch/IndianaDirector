@@ -28,6 +28,11 @@ collections:
               - {label: "Image Upload", name: "showImageSrc", widget: "image"}
               - {label: "Image Alt Text", name: "showImageAlt", widget: "string"}
               - {label: "Image Copyright", name: "showImageCopyright", widget: "string"}
+          - label: "Credits"
+            name: "credits"
+            fields:
+              - {label: "Director", name: "director", widget: "string"}
+              - {label: "Assistant Director", name: "assistant", widget: "string"}
           - label: "Press & Articles"
             name: "pressList"
             widget: "list"
