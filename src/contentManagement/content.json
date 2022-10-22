@@ -9,7 +9,7 @@
     {
       "showTitle": "The Solid Life Of Sugar Water",
       "showCompany": "The Orange Tree Theatre",
-      "showText": "Alice and Phil bare every messy, painful, hilarious, irritating, delightful, loving detail of their relationship as it bends and shifts to everything life throws at them. Nothing goes unshared …  Writer Jack Thorne (Channel 4’s Skins and This Is England) thrillingly amplifies disabled voices in this witty, impassioned and intimate play. ",
+      "showText": "Alice and Phil bare every messy, painful, hilarious, irritating, delightful, loving detail of their relationship as it bends and shifts to everything life throws at them. Nothing goes unshared …  Writer Jack Thorne (Channel 4’s Skins and This Is England) thrillingly amplifies disabled voices in this witty, impassioned and intimate play.  ",
       "showImageSrc": "/public/admin/imageUploads/solidlife.jpeg",
       "showImageAlt": "Underwater shot of two people swimming in clothes for poster of The Solid Life Of Sugar Water",
       "showImageCopyright": "The Orange Tree Theatre"
@@ -31,5 +31,11 @@
       "showImageCopyright": "Shakespeare's Globe"
     }
   ],
-  "pressList": []
+  "pressList": [
+    {
+      "pressQuote": "Brilliantly acted, designed and directed, Thorne’s tender but brutally powerful portrait of a couple gets an overdue revival",
+      "pressPublisher": "The Guardian",
+      "pressLink": "https://www.theguardian.com/stage/2022/oct/20/the-solid-life-of-sugar-water-review-jack-thornes-superb-drama-of-love-and-loss"
+    }
+  ]
 }
