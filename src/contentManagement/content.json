@@ -31,7 +31,7 @@
       "pressLink": "https://www.thestage.co.uk/qa/director-indiana-lown-collins-i-want-to-make-theatre-that-is-authentic-to-the-world-we-live-in"
     }
   ],
-  "includeCurrentWork": true,
+  "includeCurrentWork": false,
   "currentWorkImages": [
     {
       "workImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg",
@@ -99,5 +99,5 @@
   "profileImage": "/public/admin/imageUploads/1l9wmwti_400x400.jpeg",
   "aboutMeImageAlt": "Indiana sits in a studio space giving notes at a rehearsal",
   "aboutMeImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg",
-  "currentWorkText": "                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis facilisis diam a commodo. Integer placerat orci sit amet justo ultricies tincidunt. Integer dictum mauris lorem, id sollicitudin dui molestie quis. Vestibulum facilisis porta turpis, sed laoreet sapien lobortis at. Phasellus ultrices, tortor eget accumsan ullamcorper, mi nisl venenatis erat, sed lobortis erat sem sit amet metus. Curabitur egestas et urna eget rhoncus. Quisque vitae massa ac velit accumsan imperdiet. Vivamus tempor hendrerit egestas. Integer eu elit feugiat augue finibus molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam tempor leo non iaculis bibendum. Morbi felis mauris, tincidunt sit amet nisl quis, auctor pretium velit."
+  "currentWorkText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis facilisis diam a commodo. Integer placerat orci sit amet justo ultricies tincidunt. Integer dictum mauris lorem, id sollicitudin dui molestie quis. Vestibulum facilisis porta turpis, sed laoreet sapien lobortis at. Phasellus ultrices, tortor eget accumsan ullamcorper, mi nisl venenatis erat, sed lobortis erat sem sit amet metus. Curabitur egestas et urna eget rhoncus. Quisque vitae massa ac velit accumsan imperdiet. Vivamus tempor hendrerit egestas. Integer eu elit feugiat augue finibus molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam tempor leo non iaculis bibendum. Morbi felis mauris, tincidunt sit amet nisl quis, auctor pretium velit."
 }
