@@ -33,6 +33,7 @@ collections:
             fields:
               - {label: "Current Work Image", name: "workImage", widget: "image"}
               - {label: "Current Work Image Alt Text", name: "workImageAlt", widget: "string"}
+          - {label: "Book Tickets Link For Current Work", name: currentWorkTickets, widget: "string"}
           - label: "Featured Shows"
             name: "featuredShowsList"
             widget: "list"
