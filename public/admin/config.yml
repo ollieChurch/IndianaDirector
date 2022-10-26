@@ -13,6 +13,7 @@ collections:
         file: "/src/contentManagement/content.json"
         fields:
           - {label: "Profile Image", name: "profileImage", widget: "image"}
+          - {label: "Header Image", name: "headerBackgroundImage", widget: "image"}
           - {label: "Twitter Link", name: "twitterLink", widget: "string"}
           - {label: "CV Link", name: "cvLink", widget: "string"}
           - {label: "About Me Text", name: "aboutMeText", widget: "string"}
