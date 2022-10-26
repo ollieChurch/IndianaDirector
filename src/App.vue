@@ -17,4 +17,9 @@
   color: #2c3e50;
   overflow-x: clip;
 }
+
+.sr-only {
+    display: none !important;
+}
+
 </style>
