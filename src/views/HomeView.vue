@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header>
+        <header :style="{ 'background-image': 'url(' + imageSrc(content.headerBackgroundImage) + ')' }">
             <b-img
                 thumbnail
                 rounded="circle"
@@ -311,7 +311,7 @@
 <style scoped>
     header {
         background: black;
-        background-image: url(../assets/globe.jpeg);
+        /* background-image: url(../assets/globe.jpeg); */
         background-size: cover;
         max-height: 230px;
     }
