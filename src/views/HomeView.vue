@@ -139,9 +139,9 @@
                     </div>
                     <b-button 
                         variant="custom-primary" 
-                        size="lg" 
+                        size="lg"
                         class="m-4 mb-5 align-self-center book-btn" 
-                        href="#" 
+                        :href="content.currentWorkTickets" 
                         target="_blank"
                     >
                         Book Tickets
