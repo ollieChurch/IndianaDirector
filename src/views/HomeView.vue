@@ -113,8 +113,8 @@
                             <img
                                 class="d-block img-fluid"
                                 width="100%"
-                                :src="imageSrc(image)"
-                                alt="image slot"
+                                :src="imageSrc(image.workImage)"
+                                :alt="image.workImageAlt"
                             >
                             </template>
                         </b-carousel-slide>
