@@ -122,8 +122,8 @@
                 </div>   
                 <b-container class="col-lg-6 px-5 d-flex flex-column justify-content-around">
                     <h2 class="display-2 pt-4">Current Work</h2>
-                    <h3 class="display-5 pt-0">{{ content.CurrentWorkTitle }}</h3>
-                    <p>{{ content.CurrentWorkText }}</p>
+                    <h3 class="display-5 pt-0">{{ content.currentWorkTitle }}</h3>
+                    <p>{{ content.currentWorkText }}</p>
                     <div>
                         <h4 class="display-6">Reviews</h4>
                         <div class="d-flex flex-wrap justify-content-center">
@@ -133,7 +133,7 @@
                                 class="mx-3"
                             >
                                 <p class="p-0 m-0">{{ review.reviewContent }}</p>
-                                <p>{{ review.reveiewPublisher }}</p>
+                                <p>{{ review.reviewPublisher }}</p>
                             </div>
                         </div>
                     </div>
