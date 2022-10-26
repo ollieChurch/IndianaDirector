@@ -54,7 +54,7 @@
         </b-jumbotron>
 
         <div class="row" ref="about">
-            <div class="col-md">
+            <div class="col-md-6 p-0">
                 <b-img
                     :src="aboutMeImg"
                     class="about-img"
@@ -90,9 +90,68 @@
                 </b-container>
             </div>
         </div>
+
+        <div ref="shows">
+            <div v-if="content.includeCurrentWork" class="row flex-lg-row-reverse">
+                <div class="col-lg p-0">
+                    <b-carousel
+                        id="carousel-1"
+                        class="currentWorkCarousel d-flex justify-content-center align-items-center"
+                        v-model="slide"
+                        :interval="4000"
+                        controls
+                        fade
+                        background="#00303b"
+                        style="text-shadow: 1px 1px 2px #333;"
+                    >
+                        <b-carousel-slide 
+                            v-for="image, index in content.currentWorkImages" 
+                            :key="`currentWorkImages-${index}`"
+                            class="d-flex justify-content-center align-items-center"
+                        >
+                            <template #img>
+                            <img
+                                class="d-block img-fluid"
+                                width="100%"
+                                :src="imageSrc(image)"
+                                alt="image slot"
+                            >
+                            </template>
+                        </b-carousel-slide>
+                    </b-carousel>
+                </div>   
+                <b-container class="col-lg-6 px-5 d-flex flex-column justify-content-around">
+                    <h2 class="display-2 pt-4">Current Work</h2>
+                    <h3 class="display-5 pt-0">{{ content.CurrentWorkTitle }}</h3>
+                    <p>{{ content.CurrentWorkText }}</p>
+                    <div>
+                        <h4 class="display-6">Reviews</h4>
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div 
+                                v-for="review in content.currentWorkReviews"
+                                :key="`currentWorkReview-${review.reviewPublisher}`"
+                                class="mx-3"
+                            >
+                                <p class="p-0 m-0">{{ review.reviewContent }}</p>
+                                <p>{{ review.reveiewPublisher }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <b-button 
+                        variant="custom-primary" 
+                        size="lg" 
+                        class="m-4 mb-5 align-self-center book-btn" 
+                        href="#" 
+                        target="_blank"
+                    >
+                        Book Tickets
+                    </b-button>
+                </b-container>
+            </div>
+        </div>
         
         <div class="py-4 featured-shows-wrapper bg-opacity-50"> 
-            <b-container ref="shows">
+            <b-container>
                 <h2 class="display-2">Featured Shows</h2>
                 <div class="row">
                     <div class="col-lg my-3" v-for="show in content.featuredShowsList" :key="`${show.showTitle}-card`" >
@@ -117,12 +176,8 @@
                 </div>
                 
                 <h2 class="display-2">Credits</h2>
-                <p>
-                    {{ content.directorCredits }}
-                </p>
-                <p>
-                    {{ content.otherCredits }}
-                </p>
+                <p>{{ content.directorCredits }}</p>
+                <p>{{ content.otherCredits }}</p>
                 <b-button 
                     size="lg" 
                     variant="custom-secondary" 
@@ -146,7 +201,7 @@
                 >
                     <div class="col-sm align-self-center">
                         <b-card-title class="press-text">
-                            "{{ article.pressQuote }}"<span class="text-muted small"> {{ article.pressPublisher }}</span>
+                            {{ article.pressQuote }}<span class="text-muted small"> {{ article.pressPublisher }}</span>
                         </b-card-title>
                     </div>
                     <b-button 
@@ -205,7 +260,6 @@
     import defaultAboutPic from '../assets/lastSupper.jpeg'
     import contentJson from '../contentManagement/content.json'
 
-
     export default {
         name: 'HomeView',
 
@@ -214,6 +268,7 @@
                 content: contentJson,
                 jmkImg: jmkImage,
                 globeImg: globeImage,
+                slide: 0,
                 contactForm: {
                     name: "",
                     email: "",
@@ -283,6 +338,10 @@
         color: white !important;
     }
 
+    .book-btn {
+        width: fit-content;
+    }
+
     .profile-img {
         height: 250px;
         aspect-ratio: 1/1;
@@ -318,6 +377,13 @@
         object-fit: cover;
         width: 100%;
         height: 100%;
+    }
+
+    .currentWorkCarousel {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        overflow: hidden;
     }
 
     .featured-shows-wrapper {

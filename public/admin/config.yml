@@ -18,6 +18,21 @@ collections:
           - {label: "About Me Text", name: "aboutMeText", widget: "string"}
           - {label: "About Me Image", name: "aboutMeImage", widget: "image"}
           - {label: "About Me Image Alt Text", name: "aboutMeImageAlt", widget: "string"}
+          - {label: "Include Current Work?", name: "includeCurrentWork", widget: "boolean"}
+          - {label: "Current Work Title", name: "currentWorkTitle", widget: "string"}
+          - {label: "Current Work Text", name: "currentWorkText", widget: "string"}
+          - label: "Current Work Reviews"
+            name: "currentWorkReviews"
+            widget: "list"
+            fields:
+              - {label: "Stars or Quote", name: "reviewContent", widget: "string"}
+              - {label: "Publisher", name: "reviewPublisher", widget: "string"}
+          - label: "Current Work Images"
+            name: "currentWorkImages"
+            widget: "list"
+            fields:
+              - {label: "Current Work Image", name: "workImage", widget: "image"}
+              - {label: "Current Work Image Alt Text", name: "workImageAlt", widget: "string"}
           - label: "Featured Shows"
             name: "featuredShowsList"
             widget: "list"
