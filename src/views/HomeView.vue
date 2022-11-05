@@ -182,7 +182,7 @@
                     size="lg" 
                     variant="custom-secondary" 
                     class="my-4" 
-                    href="IndianaLownCollins.pdf" 
+                    :href="imageSrc(content.cvFile)" 
                     target="_blank"
                 >
                     See Full CV

@@ -15,7 +15,7 @@ collections:
           - {label: "Profile Image", name: "profileImage", widget: "image"}
           - {label: "Header Image", name: "headerBackgroundImage", widget: "image"}
           - {label: "Twitter Link", name: "twitterLink", widget: "string"}
-          - {label: "CV Link", name: "cvLink", widget: "string"}
+          - {label: "CV", name: "cvFile", widget: "document", allow_multiple: "false"}
           - {label: "About Me Text", name: "aboutMeText", widget: "string"}
           - {label: "About Me Image", name: "aboutMeImage", widget: "image"}
           - {label: "About Me Image Alt Text", name: "aboutMeImageAlt", widget: "string"}
@@ -55,7 +55,7 @@ collections:
               - {label: "Publisher", name: "pressPublisher", widget: "string"}
               - {label: "Link", name: "pressLink", widget: "string"}
               
-site_url: https://indianalown-collins.netlify.app
+site_url: https://indianalowncollins.co.uk
 
 # Copyright (c) 2016 Netlify <team@netlify.com>
 
