@@ -15,7 +15,7 @@ collections:
           - {label: "Profile Image", name: "profileImage", widget: "image"}
           - {label: "Header Image", name: "headerBackgroundImage", widget: "image"}
           - {label: "Twitter Link", name: "twitterLink", widget: "string"}
-          - {label: "CV", name: "cvFile", widget: "document", allow_multiple: "false"}
+          - {label: "CV", name: "cvFile", widget: "file", allow_multiple: "false"}
           - {label: "About Me Text", name: "aboutMeText", widget: "string"}
           - {label: "About Me Image", name: "aboutMeImage", widget: "image"}
           - {label: "About Me Image Alt Text", name: "aboutMeImageAlt", widget: "string"}
