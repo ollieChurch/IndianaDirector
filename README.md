@@ -16,4 +16,4 @@ Finally I presented Indiana with her site, hosted on Netlify, which she has upda
 This is a site built with Vue and Bootstrap. *NetlifyCMS* stores it's saved content as a JSON files in the GitHub repo and I make use of this file within the vue script to display the data where it is needed throughout the site. Thanks to Netlify's continuous build functionality, everytime the GitHub repo is updated Netlify triggers a new build incorporating any fresh edits Indiana has made instantly.
 
 ## Next Steps
-Currently all of the main page vue code is in one file, and while it is relatively simple, it could do with refactoring and splitting out into components for reusability.
+Currently all of the main page vue code is in one file, and while it is relatively simple, it could do with refactoring and splitting out into components for reusability. There are also some optimisations which could be made for the google lighthouse score.
