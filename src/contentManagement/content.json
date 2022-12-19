@@ -37,27 +37,63 @@
       "pressLink": "https://www.whatsonstage.com/richmond-theatre/reviews/the-solid-life-of-sugar-water-orange-tree_57671.html?utm_source=twitter&utm_medium=social&utm_campaign=24oct2022"
     }
   ],
-  "includeCurrentWork": true,
-  "currentWorkImages": [
+  "currentWorkList": [
     {
-      "workImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg",
-      "workImageAlt": "Two people kneel on a bed. Underneath the bed is the illusion of a bottomless pit"
-    },
-    {
-      "workImage": "/public/admin/imageUploads/slsw2.jpeg",
-      "workImageAlt": "Two people holding hands lying in bed, with a blue light over them."
-    },
-    {
-      "workImage": "/public/admin/imageUploads/slsw3.jpeg",
-      "workImageAlt": "Two people pulling a white sheet. One person is on the bed with a white light on them, the other is off the bed screaming."
-    },
-    {
-      "workImage": "/public/admin/imageUploads/slsw4.jpeg",
-      "workImageAlt": "A photo of the Katie Erich, the actor playing Alice signing during the show with the captions next to her."
-    },
-    {
-      "workImage": "/public/admin/imageUploads/slsw5.jpeg",
-      "workImageAlt": "An image of two people dancing on a bed."
+        "currentWorkText": "The Solid Life Of Sugar Water by Jack Thorne is currently playing at The Orange Tree Theatre in Richmond until the 12th November. The Solid Life of Sugar Water is a beautifully told, witty and impassioned personal story. It also amplifies disabled voices as an integral part of the play, and provides representation of a community that often goes unseen and unheard.      Please find more information on the show below.  https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water/about",
+        "currentWorkTickets": "https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water",
+        "currentWorkImages": [
+            {
+              "workImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg",
+              "workImageAlt": "Two people kneel on a bed. Underneath the bed is the illusion of a bottomless pit"
+            },
+            {
+              "workImage": "/public/admin/imageUploads/slsw2.jpeg",
+              "workImageAlt": "Two people holding hands lying in bed, with a blue light over them."
+            },
+            {
+              "workImage": "/public/admin/imageUploads/slsw3.jpeg",
+              "workImageAlt": "Two people pulling a white sheet. One person is on the bed with a white light on them, the other is off the bed screaming."
+            },
+            {
+              "workImage": "/public/admin/imageUploads/slsw4.jpeg",
+              "workImageAlt": "A photo of the Katie Erich, the actor playing Alice signing during the show with the captions next to her."
+            },
+            {
+              "workImage": "/public/admin/imageUploads/slsw5.jpeg",
+              "workImageAlt": "An image of two people dancing on a bed."
+            }
+          ],
+          "currentWorkTitle": "The Solid Life Of Sugar Water by Jack Thorne",
+          "currentWorkReviews": [
+            {
+              "reviewContent": "4 OFFIES (Off West End) Nominations for: Best Production, Access (For breaking down barriers), Lead Performance for Katie Erich and Lead Performance for Adam Fenton",
+              "reviewPublisher": "The OFFIES"
+            },
+            {
+              "reviewContent": "★★★★ \"Brilliantly acted, designed and directed, Thorne’s tender but brutally powerful portrait of a couple gets an overdue revival\"",
+              "reviewPublisher": "The Guardian"
+            },
+            {
+              "reviewContent": "★★★★ “Lown-Collins deftly handles the plays emotionally gruelling content.”",
+              "reviewPublisher": "The Stage"
+            },
+            {
+              "reviewContent": "★★★★ I look forward to seeing what Lown-Collins does next...She does the play and her two performers proud.” ",
+              "reviewPublisher": "Evening Standard"
+            },
+            {
+              "reviewContent": "★★★★★ \"Inclusive, consistently compelling...A vital, remarkable piece of theatre\"",
+              "reviewPublisher": "What's On Stage"
+            },
+            {
+              "reviewContent": "★★★★ \"Explosively Funny...Smashingly good performances\"",
+              "reviewPublisher": "The Times"
+            },
+            {
+              "reviewPublisher": "The Spy In The Stalls",
+              "reviewContent": "★★★★★ “Director Indiana Lown-Collins has humbled the West End in their lack of inclusivity, showing how utterly immaterial disability is to quality of performance”."
+            }
+          ]
     }
   ],
   "featuredShowsList": [
@@ -89,43 +125,11 @@
   "otherCredits": "Other credits include: Assistant Director on Titus Andronicus (Shakespeare’s Globe, Sam Wanamaker), Julius Caesar (Shakespeare’s Globe), Movement Director on The Tales of Hans Christian Andersen (GSC); Associate Director on The Light In The Piazza (In concert, Alexandra Palace Theatre), Merrily We Roll Along (Yvonne Arnaud Theatre); Assistant Director on All’s Well That Ends Well (Jermyn Street Theatre), Cinderella (Yvonne Arnaud Theatre); A Woman Alone (Etcetera Theatre); All Aboard (Electric Theatre); Language coach on Strictly Ballroom the Musical (Leeds Playhouse). Indiana was the Assistant Director and Producer at the Guildford Shakespeare Company (2019-2021) where she was Associate Director on Macbeth; Assistant director on As You Like It, She Stoops to Conquer, The Merry Wives of Windsor, Twelfth Night, Robin Hood, Alice and Wonderland, Romeo and Juliet and The Legend of King Arthur.",
   "twitterLink": "https://twitter.com/indianalown",
   "cvLink": "https://www.linkedin.com/in/indiana-lown-collins",
-  "currentWorkTitle": "The Solid Life Of Sugar Water by Jack Thorne",
   "directorCredits": "As a director, Indiana Lown-Collins’s credits include: The Solid Life of Sugar Water by Jack Thorne (Orange Tree Theatre); Romeo and Juliet (Guildford Shakespeare Company, TIE tour); The Purple Princess (Guildford Shakespeare Company, TIE tour); The Last Supper (Fresh Direction ‘Replay Project’ The Young Vic).",
   "cvFile": "/public/admin/imageUploads/indiana-lown-collins-cv.pdf",
-  "currentWorkReviews": [
-    {
-      "reviewContent": "4 OFFIES (Off West End) Nominations for: Best Production, Access (For breaking down barriers), Lead Performance for Katie Erich and Lead Performance for Adam Fenton",
-      "reviewPublisher": "The OFFIES"
-    },
-    {
-      "reviewContent": "★★★★ \"Brilliantly acted, designed and directed, Thorne’s tender but brutally powerful portrait of a couple gets an overdue revival\"",
-      "reviewPublisher": "The Guardian"
-    },
-    {
-      "reviewContent": "★★★★ “Lown-Collins deftly handles the plays emotionally gruelling content.”",
-      "reviewPublisher": "The Stage"
-    },
-    {
-      "reviewContent": "★★★★ I look forward to seeing what Lown-Collins does next...She does the play and her two performers proud.” ",
-      "reviewPublisher": "Evening Standard"
-    },
-    {
-      "reviewContent": "★★★★★ \"Inclusive, consistently compelling...A vital, remarkable piece of theatre\"",
-      "reviewPublisher": "What's On Stage"
-    },
-    {
-      "reviewContent": "★★★★ \"Explosively Funny...Smashingly good performances\"",
-      "reviewPublisher": "The Times"
-    },
-    {
-      "reviewPublisher": "The Spy In The Stalls",
-      "reviewContent": "★★★★★ “Director Indiana Lown-Collins has humbled the West End in their lack of inclusivity, showing how utterly immaterial disability is to quality of performance”."
-    }
-  ],
+  
   "aboutMeText": "Hello! I'm Indiana (she/her), I'm a theatre director who grew up in Spain where I trained in Flamenco dancing and singing. I moved to the UK 10 years ago to develop a career in the arts.  I am this year’s winner of the JMK Award 2022 with my show, ‘The Solid Life of Sugar Water’ by Jack Thorne which is currently playing at the Orange Tree Theatre until 12th Nov 22. As a disabled artist I am passionate about making theatre that’s representative of the world we live in, that champions unheard voices and that is authentic and raw. I am committed to trying to change the theatre landscape to represent the disabled community more widely in the arts. I want to make Theatre that puts disabled voices at the centre of the story. I started working as an assistant director in 2016 and have had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. From 2018-2021 I worked as the assistant director and producer at The Guildford Shakespeare Company working on site specific theatre.",
   "profileImage": "/public/admin/imageUploads/1l9wmwti_400x400.jpeg",
   "aboutMeImageAlt": "A production shot of the Alice and Phil on the bed, from 'The Solid Life Of Sugar Water'",
-  "aboutMeImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg",
-  "currentWorkText": "The Solid Life Of Sugar Water by Jack Thorne is currently playing at The Orange Tree Theatre in Richmond until the 12th November. The Solid Life of Sugar Water is a beautifully told, witty and impassioned personal story. It also amplifies disabled voices as an integral part of the play, and provides representation of a community that often goes unseen and unheard.      Please find more information on the show below.  https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water/about",
-  "currentWorkTickets": "https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water"
+  "aboutMeImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg"
 }

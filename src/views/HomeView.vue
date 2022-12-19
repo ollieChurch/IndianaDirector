@@ -92,7 +92,11 @@
         </div>
 
         <div ref="shows">
-            <div v-if="content.includeCurrentWork" class="row flex-lg-row-reverse">
+            <div 
+                v-for="show, index in content.currentWorkList" 
+                :key="`${show.currentWorkTitle}-feature`" 
+                :class="index % 2 == 0 ? 'row flex-lg-row-reverse' : 'row flex-lg-row'"
+            >
                 <div class="col-lg p-0">
                     <b-carousel
                         id="carousel-1"
@@ -105,7 +109,7 @@
                         style="text-shadow: 1px 1px 2px #333;"
                     >
                         <b-carousel-slide 
-                            v-for="image, index in content.currentWorkImages" 
+                            v-for="image, index in show.currentWorkImages" 
                             :key="`currentWorkImages-${index}`"
                             class="d-flex justify-content-center align-items-center"
                         >
@@ -121,14 +125,13 @@
                     </b-carousel>
                 </div>   
                 <b-container class="col-lg-6 px-5 d-flex flex-column justify-content-around">
-                    <h2 class="display-2 pt-4">Current Work</h2>
-                    <h3 class="display-5 pt-0">{{ content.currentWorkTitle }}</h3>
-                    <p>{{ content.currentWorkText }}</p>
+                    <h3 class="display-5 pt-4">{{ show.currentWorkTitle }}</h3>
+                    <p>{{ show.currentWorkText }}</p>
                     <div>
                         <h4 class="display-6">Reviews</h4>
                         <div class="d-flex flex-wrap justify-content-center">
                             <div 
-                                v-for="review in content.currentWorkReviews"
+                                v-for="review in show.currentWorkReviews"
                                 :key="`currentWorkReview-${review.reviewPublisher}`"
                                 class="mx-3"
                             >
@@ -141,10 +144,10 @@
                         variant="custom-primary" 
                         size="lg"
                         class="m-4 mb-5 align-self-center book-btn" 
-                        :href="content.currentWorkTickets" 
+                        :href="show.currentWorkTickets" 
                         target="_blank"
                     >
-                        Book Tickets
+                        See More
                     </b-button>
                 </b-container>
             </div>
@@ -303,6 +306,14 @@
 
             imageSrc(image) {
                 return image.split("/public").join('')
+            },
+
+            getWorkClasses(index) { 
+                if (index % 2 == 0) { 
+                    return "row flex-lg-row-reverse"
+                } else {
+                    return "row flex-lg-row"
+                }
             }
         }
     }
