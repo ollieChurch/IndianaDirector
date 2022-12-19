@@ -23,7 +23,6 @@ collections:
             name: "currentWorkList"
             widget: "list"
             fields:
-              - {label: "Include Current Work?", name: "includeCurrentWork", widget: "boolean"}
               - {label: "Current Work Title", name: "currentWorkTitle", widget: "string"}
               - {label: "Current Work Text", name: "currentWorkText", widget: "string"}
               - label: "Current Work Reviews"
