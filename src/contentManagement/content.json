@@ -47,6 +47,14 @@
       "showImageCopyright": "The Orange Tree Theatre"
     },
     {
+      "showTitle": "Titus Andronicus",
+      "showCompany": "Shakespeare's Globe",
+      "showText": "Indiana is currently the assistant director on Titus Andronicus directed by Jude Christian, playing at the Sam Wannamaker Theatre (Shakespeare's Globe) January to April 2023. As the candles burn and the bodies pile up, director Jude Christian explores the macabre madness that takes us to the edge of humanity.",
+      "showImageSrc": "/public/admin/imageUploads/screenshot-2022-12-30-at-13.55.58.png",
+      "showImageAlt": "Red candles burning in a pile with the wording 'Titus Andronicus' over the top.",
+      "showImageCopyright": "Shakespeare's Globe"
+    },
+    {
       "showTitle": "The Purple Princess",
       "showCompany": "Guildford Shakespeare Company",
       "showText": "This is a new devised play about hidden disabilities based on Indiana's own life experiences. With aspects of forum theatre, she helped create the script which focussed on educating children on seizure awareness and first aid, as well as other issues around hidden disabilities. The show was funded by South Western Railway and toured to 25 schools in three weeks.",
@@ -61,6 +69,14 @@
       "showImageSrc": "/public/admin/imageUploads/juliuscaesar.jpeg",
       "showImageAlt": "A woman sits with a red cape surrounded by rose petals",
       "showImageCopyright": "Shakespeare's Globe"
+    },
+    {
+      "showTitle": "The Tales of Hans Christian Andersen",
+      "showCompany": "Guildford Shakespeare Company",
+      "showText": "Indiana was the Movement director and Choreographer for a new adaptation of 'The Tales of Hans Christian Andersen' which played at St Nicholas Church, Guildford in autumn 2021. The Ugly Duckling, Thumbelina, The Little Match-Girl, The Emperor's New Clothes, The Princess and the Pea: the tales of Hans Christian Andersen are some of the most-treasured stories we have all grown up with, and this Autumn we're bringing seven of them to life in a brand new musical.",
+      "showImageSrc": "https://www.guildford-shakespeare-company.co.uk/hans-andersen/",
+      "showImageCopyright": "Guildford Shakespeare Company",
+      "showImageAlt": "The poster of the tales of Hans Christian Andersen"
     }
   ],
   "currentWorkList": [
