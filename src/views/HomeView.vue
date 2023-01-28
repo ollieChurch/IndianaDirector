@@ -128,9 +128,9 @@
                     <h3 class="display-5 pt-4">{{ show.currentWorkTitle }}</h3>
                     <p>{{ show.currentWorkText }}</p>
                     <div>
-                        <h4 class="display-6">Reviews</h4>
+                        <h4 class="display-6" v-if="show.currentWorkReviews">Reviews</h4>
                         <div class="d-flex flex-wrap justify-content-center">
-                            <div 
+                            <div
                                 v-for="review in show.currentWorkReviews"
                                 :key="`currentWorkReview-${review.reviewPublisher}`"
                                 class="mx-3"
