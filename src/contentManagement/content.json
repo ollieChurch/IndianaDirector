@@ -39,22 +39,6 @@
   ],
   "featuredShowsList": [
     {
-      "showTitle": "The Solid Life Of Sugar Water",
-      "showCompany": "The Orange Tree Theatre",
-      "showText": "Alice and Phil bare every messy, painful, hilarious, irritating, delightful, loving detail of their relationship as it bends and shifts to everything life throws at them. Nothing goes unshared …  Writer Jack Thorne (Channel 4’s Skins and This Is England) thrillingly amplifies disabled voices in this witty, impassioned and intimate play.  ",
-      "showImageSrc": "/public/admin/imageUploads/solidlife.jpeg",
-      "showImageAlt": "Underwater shot of two people swimming in clothes for poster of The Solid Life Of Sugar Water",
-      "showImageCopyright": "The Orange Tree Theatre"
-    },
-    {
-      "showTitle": "Titus Andronicus",
-      "showCompany": "Shakespeare's Globe",
-      "showText": "Indiana is currently the assistant director on Titus Andronicus directed by Jude Christian, playing at the Sam Wannamaker Theatre (Shakespeare's Globe) January to April 2023. As the candles burn and the bodies pile up, director Jude Christian explores the macabre madness that takes us to the edge of humanity.",
-      "showImageSrc": "/public/admin/imageUploads/screenshot-2022-12-30-at-13.55.58.png",
-      "showImageAlt": "Red candles burning in a pile with the wording 'Titus Andronicus' over the top.",
-      "showImageCopyright": "Shakespeare's Globe"
-    },
-    {
       "showTitle": "The Purple Princess",
       "showCompany": "Guildford Shakespeare Company",
       "showText": "This is a new devised play about hidden disabilities based on Indiana's own life experiences. With aspects of forum theatre, she helped create the script which focussed on educating children on seizure awareness and first aid, as well as other issues around hidden disabilities. The show was funded by South Western Railway and toured to 25 schools in three weeks.",
@@ -80,6 +64,17 @@
     }
   ],
   "currentWorkList": [
+    {
+      "currentWorkTitle": "Titus Andronicus",
+      "currentWorkText": "Indiana is currently the assistant director on Titus Andronicus directed by Jude Christian, playing at the Sam Wannamaker Theatre (Shakespeare's Globe) January to April 2023. As the candles burn and the bodies pile up, director Jude Christian explores the macabre madness that takes us to the edge of humanity.",
+      "currentWorkImages": [
+        {
+          "workImage": "/public/admin/imageUploads/screenshot-2022-12-30-at-13.55.58.png",
+          "workImageAlt": "Red candles burning in a pile with the wording 'Titus Andronicus' over the top."
+        }
+      ],
+      "currentWorkTickets": "https://www.shakespearesglobe.com"
+    },
     {
       "currentWorkText": "The Solid Life Of Sugar Water by Jack Thorne is currently playing at The Orange Tree Theatre in Richmond until the 12th November. The Solid Life of Sugar Water is a beautifully told, witty and impassioned personal story. It also amplifies disabled voices as an integral part of the play, and provides representation of a community that often goes unseen and unheard.      Please find more information on the show below.  https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water/about",
       "currentWorkTickets": "https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water",
@@ -136,17 +131,6 @@
           "reviewContent": "★★★★★ “Director Indiana Lown-Collins has humbled the West End in their lack of inclusivity, showing how utterly immaterial disability is to quality of performance”."
         }
       ]
-    },
-    {
-      "currentWorkTitle": "Titus Adronicus",
-      "currentWorkText": "I am super brilliant",
-      "currentWorkImages": [
-        {
-          "workImage": "/public/admin/imageUploads/screenshot-2022-12-30-at-13.55.58.png",
-          "workImageAlt": "red candles burning out"
-        }
-      ],
-      "currentWorkTickets": "www.shakespearesglobe.com"
     }
   ],
   "otherCredits": "Other credits include: Assistant Director on Titus Andronicus (Shakespeare’s Globe, Sam Wanamaker), Julius Caesar (Shakespeare’s Globe), Movement Director on The Tales of Hans Christian Andersen (GSC); Associate Director on The Light In The Piazza (In concert, Alexandra Palace Theatre), Merrily We Roll Along (Yvonne Arnaud Theatre); Assistant Director on All’s Well That Ends Well (Jermyn Street Theatre), Cinderella (Yvonne Arnaud Theatre); A Woman Alone (Etcetera Theatre); All Aboard (Electric Theatre); Language coach on Strictly Ballroom the Musical (Leeds Playhouse). Indiana was the Assistant Director and Producer at the Guildford Shakespeare Company (2019-2021) where she was Associate Director on Macbeth; Assistant director on As You Like It, She Stoops to Conquer, The Merry Wives of Windsor, Twelfth Night, Robin Hood, Alice and Wonderland, Romeo and Juliet and The Legend of King Arthur.",
@@ -154,7 +138,7 @@
   "cvLink": "https://www.linkedin.com/in/indiana-lown-collins",
   "directorCredits": "As a director, Indiana Lown-Collins’s credits include: The Solid Life of Sugar Water by Jack Thorne (Orange Tree Theatre); Romeo and Juliet (Guildford Shakespeare Company, TIE tour); The Purple Princess (Guildford Shakespeare Company, TIE tour); The Last Supper (Fresh Direction ‘Replay Project’ The Young Vic).",
   "cvFile": "/public/admin/imageUploads/indiana-lown-collins-cv.pdf",
-  "aboutMeText": "Hello! I'm Indiana (she/her), I'm a theatre director who grew up in Spain where I trained in Flamenco dancing and singing. I moved to the UK 10 years ago to develop a career in the arts.  I am this year’s winner of the JMK Award 2022 with my show, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre Oct/Nov 22. As a disabled artist I am passionate about making theatre that’s representative of the world we live in, that champions unheard voices and that is authentic and raw. I am committed to trying to change the theatre landscape to represent the disabled community more widely in the arts. I want to make Theatre that puts disabled voices at the centre of the story. I started working professionally as a director in 2016 and have had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. From 2018-2021 I worked as the assistant director and producer at The Guildford Shakespeare Company working on site specific theatre.",
+  "aboutMeText": "Hello! I'm Indiana (she/her), I'm a theatre director and currently Resident Associate Director at Shakespeare’s Globe. I am the 2022 winner of the JMK Award with my show, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre Oct/Nov 22. As a disabled artist I am passionate about making theatre that’s representative of the world we live in, that champions unheard voices and that is authentic and raw. I am committed to trying to change the theatre landscape to represent the disabled community more widely in the arts. I want to make Theatre that puts disabled voices at the centre of the story. I started working professionally as a director in 2016 and have had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. From 2018-2021 I worked as the assistant director and producer at The Guildford Shakespeare Company working on site specific theatre.",
   "profileImage": "/public/admin/imageUploads/1l9wmwti_400x400.jpeg",
   "aboutMeImageAlt": "A production shot of the Alice and Phil on the bed, from 'The Solid Life Of Sugar Water'",
   "aboutMeImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg"
