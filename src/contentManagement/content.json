@@ -92,8 +92,12 @@
       "currentWorkTitle": "The Solid Life Of Sugar Water by Jack Thorne",
       "currentWorkReviews": [
         {
-          "reviewContent": "4 OFFIES (Off West End) Nominations for: Best Production, Access (For breaking down barriers), Lead Performance for Katie Erich and Lead Performance for Adam Fenton",
+          "reviewContent": "'The Solid Life of Sugar Water' has won the OFFIE Award (Off West End) for 'Best Production'. It was also nominated for 'Best Access' (For breaking down barriers), 'Lead Performance' for Katie Erich and 'Lead Performance' for Adam Fenton.",
           "reviewPublisher": "The OFFIES"
+        },
+        {
+          "reviewContent": "★★★★★ \"Inclusive, consistently compelling...A vital, remarkable piece of theatre\"",
+          "reviewPublisher": "What's On Stage"
         },
         {
           "reviewContent": "★★★★ \"Brilliantly acted, designed and directed, Thorne’s tender but brutally powerful portrait of a couple gets an overdue revival\"",
@@ -106,10 +110,6 @@
         {
           "reviewContent": "★★★★ I look forward to seeing what Lown-Collins does next...She does the play and her two performers proud.” ",
           "reviewPublisher": "Evening Standard"
-        },
-        {
-          "reviewContent": "★★★★★ \"Inclusive, consistently compelling...A vital, remarkable piece of theatre\"",
-          "reviewPublisher": "What's On Stage"
         },
         {
           "reviewContent": "★★★★ \"Explosively Funny...Smashingly good performances\"",
@@ -138,7 +138,7 @@
   "cvLink": "https://www.linkedin.com/in/indiana-lown-collins",
   "directorCredits": "As a director, Indiana Lown-Collins’s credits include: The Solid Life of Sugar Water by Jack Thorne (Orange Tree Theatre); Romeo and Juliet (Guildford Shakespeare Company, TIE tour); The Purple Princess (Guildford Shakespeare Company, TIE tour); The Last Supper (Fresh Direction ‘Replay Project’ The Young Vic).",
   "cvFile": "/public/admin/imageUploads/indiana-lown-collins-cv.pdf",
-  "aboutMeText": "Hello! I'm Indiana (she/her), I'm a theatre director and currently Resident Associate Director at Shakespeare’s Globe. I am the 2022 winner of the JMK Award with my show, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre Oct/Nov 22. As a disabled artist I am passionate about making theatre that’s representative of the world we live in, that champions unheard voices and that is authentic and raw. I am committed to trying to change the theatre landscape to represent the disabled community more widely in the arts. I want to make Theatre that puts disabled voices at the centre of the story. I started working professionally as a director in 2016 and have had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. From 2018-2021 I worked as the assistant director and producer at The Guildford Shakespeare Company working on site specific theatre.",
+  "aboutMeText": "Hello! I'm Indiana (she/her), I'm a theatre director and currently Resident Associate Director at Shakespeare’s Globe. I am the 2022 winner of the JMK Award with my production, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre Oct/Nov 22 and won the OFFIE for 'Best Production'. As a disabled artist I am passionate about making theatre that’s representative of the world we live in, that champions unheard voices and that is authentic and raw. I am committed to trying to change the theatre landscape to represent the disabled community more widely in the arts. I want to make Theatre that puts disabled voices at the centre of the story. I started working professionally as a director in 2016 and have had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. From 2018-2021 I worked as the assistant director and producer at The Guildford Shakespeare Company working on site specific theatre.",
   "profileImage": "/public/admin/imageUploads/1l9wmwti_400x400.jpeg",
   "aboutMeImageAlt": "A production shot of the Alice and Phil on the bed, from 'The Solid Life Of Sugar Water'",
   "aboutMeImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg"
