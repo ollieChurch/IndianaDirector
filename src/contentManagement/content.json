@@ -39,20 +39,20 @@
   ],
   "featuredShowsList": [
     {
+      "showTitle": "A Midsummer Night's Dream",
+      "showCompany": "Shakespeare's Globe, https://www.shakespearesglobe.com/whats-on/a-midsummer-nights-dream-2023/",
+      "showText": "Indiana is currently Associate Director on A Midsummer Night's Dream directed by Elle While and featuring Shakespeare’s Globe’s Artistic Director Michelle Terry as Puck. On Midsummer’s eve, four rebellious young lovers, a band of ambitious artisan players, and a feuding Fairy King and Queen all cross paths in a riotously enchanted forest. When the shapeshifting, mischief-making Puck, the Fairy King’s servant, is ordered to cast spells on everyone, what could possibly go wrong?  All hell breaks loose as nature, and human nature, are turned upside down and inside out; the forest’s new inhabitants are in for a wild and unsettling night of love, jealousy and utter confusion… but once the nightmare is over, will life be a dream again by morning?",
+      "showImageSrc": "/public/admin/imageUploads/4fe8159b-11f5-4195-9cdb-a17141e58aab_1_201_a.jpeg",
+      "showImageAlt": "A Midsummer Night's Dream poster featuring Michelle Terry as Puck with leaves and flowers in her hair.",
+      "showImageCopyright": "Shakespeare's Globe"
+    },
+    {
       "showTitle": "The Purple Princess",
       "showCompany": "Guildford Shakespeare Company",
       "showText": "This is a new devised play about hidden disabilities based on Indiana's own life experiences. With aspects of forum theatre, she helped create the script which focussed on educating children on seizure awareness and first aid, as well as other issues around hidden disabilities. The show was funded by South Western Railway and toured to 25 schools in three weeks.",
       "showImageSrc": "/public/admin/imageUploads/purpleprincess.jpeg",
       "showImageAlt": "Cartoon of princess inviting you to join her on the modern day train",
       "showImageCopyright": "Guildford Shakespeare Company"
-    },
-    {
-      "showTitle": "Julius Caesar",
-      "showCompany": "Shakespeare's Globe",
-      "showText": "Indiana was Resident Assistant Director on Shakespeares Globe's Summer22 tour of Julius Caesar, directed by Diane Page. We confront our own political landscape as Shakespeare’s epic tragedy Julius Caesar takes on startlingly new relevance in the Globe Theatre, and across the UK as part of Globe on Tour.",
-      "showImageSrc": "/public/admin/imageUploads/juliuscaesar.jpeg",
-      "showImageAlt": "A woman sits with a red cape surrounded by rose petals",
-      "showImageCopyright": "Shakespeare's Globe"
     },
     {
       "showTitle": "The Tales of Hans Christian Andersen",
