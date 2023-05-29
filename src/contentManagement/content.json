@@ -39,11 +39,11 @@
   ],
   "featuredShowsList": [
     {
-      "showTitle": "A Midsummer Night's Dream",
-      "showCompany": "Shakespeare's Globe, https://www.shakespearesglobe.com/whats-on/a-midsummer-nights-dream-2023/",
-      "showText": "Indiana is currently Associate Director on A Midsummer Night's Dream directed by Elle While and featuring Shakespeare’s Globe’s Artistic Director Michelle Terry as Puck. On Midsummer’s eve, four rebellious young lovers, a band of ambitious artisan players, and a feuding Fairy King and Queen all cross paths in a riotously enchanted forest. When the shapeshifting, mischief-making Puck, the Fairy King’s servant, is ordered to cast spells on everyone, what could possibly go wrong?  All hell breaks loose as nature, and human nature, are turned upside down and inside out; the forest’s new inhabitants are in for a wild and unsettling night of love, jealousy and utter confusion… but once the nightmare is over, will life be a dream again by morning?",
-      "showImageSrc": "/public/admin/imageUploads/4fe8159b-11f5-4195-9cdb-a17141e58aab_1_201_a.jpeg",
-      "showImageAlt": "A Midsummer Night's Dream poster featuring Michelle Terry as Puck with leaves and flowers in her hair.",
+      "showTitle": "Titus Andronicus",
+      "showCompany": "Shakespeare’s Globe",
+      "showText": "Indiana was the assistant director on Titus Andronicus directed by Jude Christian, playing at the Sam Wannamaker Theatre (Shakespeare's Globe) January to April 2023. As the candles burn and the bodies pile up, director Jude Christian explores the macabre madness that takes us to the edge of humanity.",
+      "showImageSrc": "/public/admin/imageUploads/screenshot-2022-12-30-at-13.55.58.png",
+      "showImageAlt": "The poster of 'Titus Andronicus' : A pile of red candles burning with the title in white at the front.",
       "showImageCopyright": "Shakespeare's Globe"
     },
     {
@@ -64,6 +64,28 @@
     }
   ],
   "currentWorkList": [
+    {
+      "currentWorkTitle": "A Midsummer Night's Dream",
+      "currentWorkText": "Indiana is currently Associate Director on A Midsummer Night's Dream directed by Elle While and featuring Shakespeare’s Globe’s Artistic Director Michelle Terry as Puck. On Midsummer’s eve, four rebellious young lovers, a band of ambitious artisan players, and a feuding Fairy King and Queen all cross paths in a riotously enchanted forest. When the shapeshifting, mischief-making Puck, the Fairy King’s servant, is ordered to cast spells on everyone, what could possibly go wrong?  All hell breaks loose as nature, and human nature, are turned upside down and inside out; the forest’s new inhabitants are in for a wild and unsettling night of love, jealousy and utter confusion… but once the nightmare is over, will life be a dream again by morning?",
+      "currentWorkImages": [
+        {
+          "workImage": "/public/admin/imageUploads/4fe8159b-11f5-4195-9cdb-a17141e58aab_1_201_a.jpeg",
+          "workImageAlt": "A Midsummer Night's Dream poster featuring Michelle Terry as Puck with leaves and flowers in her hair."
+        }
+      ],
+      "currentWorkTickets": "https://www.shakespearesglobe.com/whats-on/a-midsummer-nights-dream-2023/#book"
+    },
+    {
+      "currentWorkTitle": "Henry V",
+      "currentWorkText": "Indiana is currently Movement Director on Guildford Shakespeare’s summer season production of Henry V, directed by Caroline Devlin. The once wild Prince Hal is now King; eager to prove himself. The French, even his own soldiers, question his readiness to lead. His response? To unite his country in a blistering campaign that will defy the odds and change the course of history.",
+      "currentWorkImages": [
+        {
+          "workImage": "/public/admin/imageUploads/2a828ce8-b6e8-45aa-a884-b9f2fcd9f4c5_1_201_a.jpeg",
+          "workImageAlt": "The poster of Henry V: The title in large yellow text with Guidford Cathedral in the background and a silhouette of King Henry V"
+        }
+      ],
+      "currentWorkTickets": "https://www.guildford-shakespeare-company.co.uk/tickets/"
+    },
     {
       "currentWorkText": "The Solid Life Of Sugar Water by Jack Thorne is currently playing at The Orange Tree Theatre in Richmond until the 12th November. The Solid Life of Sugar Water is a beautifully told, witty and impassioned personal story. It also amplifies disabled voices as an integral part of the play, and provides representation of a community that often goes unseen and unheard.      Please find more information on the show below.  https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water/about",
       "currentWorkTickets": "https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water",
@@ -120,17 +142,6 @@
           "reviewContent": "★★★★★ “Director Indiana Lown-Collins has humbled the West End in their lack of inclusivity, showing how utterly immaterial disability is to quality of performance”."
         }
       ]
-    },
-    {
-      "currentWorkTitle": "Titus Andronicus",
-      "currentWorkText": "Indiana is currently the assistant director on Titus Andronicus directed by Jude Christian, playing at the Sam Wannamaker Theatre (Shakespeare's Globe) January to April 2023. As the candles burn and the bodies pile up, director Jude Christian explores the macabre madness that takes us to the edge of humanity.",
-      "currentWorkImages": [
-        {
-          "workImage": "/public/admin/imageUploads/screenshot-2022-12-30-at-13.55.58.png",
-          "workImageAlt": "Red candles burning in a pile with the wording 'Titus Andronicus' over the top."
-        }
-      ],
-      "currentWorkTickets": "https://www.shakespearesglobe.com/whats-on/titus-andronicus"
     }
   ],
   "otherCredits": "Other credits include: Associate Director on A Midsummer Night’s Dream (Shakespeare's Globe) Assistant Director on Titus Andronicus and Julius Caesar (Shakespeare’s Globe); Movement Director on The Tales of Hans Christian Andersen (GSC); Associate Director on The Light at the Piazza (In Concert, Alexandra Palace Theatre), Merrily We Roll Along (Yvonne Arnaud Theatre); Assistant Director on All’s Well That Ends Well (Jermyn Street Theatre/GSC), Cinderella (Yvonne Arnaud Theatre); A Woman Alone (Etcetera Theatre); All Aboard (Electric Theatre); Language coach on Strictly Ballroom the Musical (Leeds Playhouse). Indiana was the assistant director and producer at the Guildford Shakespeare Company (2019-2021) where she assisted on As You Like It, She Stoops to Conquer, The Merry Wives of Windsor, Twelfth Night, Robin Hood, Alice and Wonderland, Romeo and Juliet, The Legend of King Arthur and Associate Director on Macbeth.",
