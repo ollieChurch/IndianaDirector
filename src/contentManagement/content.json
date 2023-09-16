@@ -74,7 +74,7 @@
   "currentWorkList": [
     {
       "currentWorkTitle": "A Midsummer Night's Dream",
-      "currentWorkText": "Indiana is currently Associate Director on 'A Midsummer Night's Dream' directed by Elle While and featuring Shakespeare’s Globe’s Artistic Director Michelle Terry as Puck. On Midsummer’s eve, four rebellious young lovers, a band of ambitious artisan players, and a feuding Fairy King and Queen all cross paths in a riotously enchanted forest. When the shapeshifting, mischief-making Puck, the Fairy King’s servant, is ordered to cast spells on everyone, what could possibly go wrong?  All hell breaks loose as nature, and human nature, are turned upside down and inside out; the forest’s new inhabitants are in for a wild and unsettling night of love, jealousy and utter confusion… but once the nightmare is over, will life be a dream again by morning?",
+      "currentWorkText": "Indiana was Associate Director on 'A Midsummer Night's Dream' directed by Elle While and featuring Shakespeare’s Globe’s Artistic Director Michelle Terry as Puck. On Midsummer’s eve, four rebellious young lovers, a band of ambitious artisan players, and a feuding Fairy King and Queen all cross paths in a riotously enchanted forest. When the shapeshifting, mischief-making Puck, the Fairy King’s servant, is ordered to cast spells on everyone, what could possibly go wrong?  All hell breaks loose as nature, and human nature, are turned upside down and inside out; the forest’s new inhabitants are in for a wild and unsettling night of love, jealousy and utter confusion… but once the nightmare is over, will life be a dream again by morning?",
       "currentWorkImages": [
         {
           "workImage": "/public/admin/imageUploads/4fe8159b-11f5-4195-9cdb-a17141e58aab_1_201_a.jpeg",
@@ -82,17 +82,6 @@
         }
       ],
       "currentWorkTickets": "https://www.shakespearesglobe.com/whats-on/a-midsummer-nights-dream-2023/#book"
-    },
-    {
-      "currentWorkTitle": "Henry V",
-      "currentWorkText": "Indiana is currently Movement Director on the Guildford Shakespeare Company's summer season production of 'Henry V', directed by Caroline Devlin. The once wild Prince Hal is now King; eager to prove himself. The French, even his own soldiers, question his readiness to lead. His response? To unite his country in a blistering campaign that will defy the odds and change the course of history.",
-      "currentWorkImages": [
-        {
-          "workImage": "/public/admin/imageUploads/2a828ce8-b6e8-45aa-a884-b9f2fcd9f4c5_1_201_a.jpeg",
-          "workImageAlt": "The poster of Henry V: The title in large yellow text with Guidford Cathedral in the background and a silhouette of King Henry V"
-        }
-      ],
-      "currentWorkTickets": "https://www.guildford-shakespeare-company.co.uk/tickets/"
     },
     {
       "currentWorkText": "Indiana directed her JMK Award winning production 'The Solid Life Of Sugar Water' by Jack Thorne which played at The Orange Tree Theatre in Richmond in autumn 2022. The Solid Life of Sugar Water is a beautifully told, witty and impassioned personal story. It amplifies disabled voices as an integral part of the play, and provides representation of a community that often goes unseen and unheard.      Please find more information on the show below.  https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water/about",
@@ -150,6 +139,17 @@
           "reviewContent": "★★★★★ “Director Indiana Lown-Collins has humbled the West End in their lack of inclusivity, showing how utterly immaterial disability is to quality of performance”."
         }
       ]
+    },
+    {
+      "currentWorkTitle": "As You Like It",
+      "currentWorkText": "Indiana is currently Associate Director on 'As You Like It' at Shakespeare's Globe directed by Ellen McDougall. In the court of Duke Frederick, division and distrust are rife. When Rosalind is banished, she runs away with her cousin Celia to the Forest of Arden. No longer governed by the court’s strict rules, they take the opportunity to explore new identities and find that the forest is a place where the possibilities for love and connection are infinite.  In this ancient community of nature, unexpected friendships are forged, curious minds meet, bitter enemies reconcile, and strangers fall in love. So meet us in our wooden ‘O’ and who knows what – or who – you might find? ",
+      "currentWorkImages": [
+        {
+          "workImage": "/public/admin/imageUploads/image-16-09-2023-at-18.37.jpg",
+          "workImageAlt": "The cast of As You Like It looking happy dressed in bright colours behind the title of the play"
+        }
+      ],
+      "currentWorkTickets": "https://www.shakespearesglobe.com/whats-on/as-you-like-it-2023/#book"
     }
   ],
   "otherCredits": "Other credits include: Associate Director on A Midsummer Night’s Dream (Shakespeare's Globe) Assistant Director on Titus Andronicus and Julius Caesar (Shakespeare’s Globe); Movement Director on The Tales of Hans Christian Andersen and Henry V (GSC); Associate Director on The Light at the Piazza (In Concert, Alexandra Palace Theatre), Merrily We Roll Along (Yvonne Arnaud Theatre); Assistant Director on All’s Well That Ends Well (Jermyn Street Theatre/GSC), Cinderella (Yvonne Arnaud Theatre); A Woman Alone (Etcetera Theatre); All Aboard (Electric Theatre); Language coach on Strictly Ballroom the Musical (Leeds Playhouse). Indiana was the assistant director and producer at the Guildford Shakespeare Company (2019-2021) where she assisted on As You Like It, She Stoops to Conquer, The Merry Wives of Windsor, Twelfth Night, Robin Hood, Alice and Wonderland, Romeo and Juliet, The Legend of King Arthur and Associate Director on Macbeth.",
@@ -157,7 +157,7 @@
   "cvLink": "https://www.linkedin.com/in/indiana-lown-collins",
   "directorCredits": "Indiana Lown-Collins is currently Resident Associate Director at Shakespeare's Globe. She won the 2022 JMK Young Director's Award with her production of ‘The Solid Life Of Sugar Water’ by Jack Thorne staged at the Orange Tree Theatre. Directing credits include: The Solid Life Of Sugar Water (Orange Tree Theatre), Romeo and Juliet (Guildford Shakespeare Company), The Purple Princess (GSC) and The Last Supper (Fresh Direction ‘Replay Project’ The Young Vic).",
   "cvFile": "/public/admin/imageUploads/indiana-lown-collins-may23-cv.pdf",
-  "aboutMeText": "Hello! I'm Indiana (she/her), I'm a theatre director and currently Resident Associate Director at Shakespeare’s Globe. I am the 2022 winner of the JMK Award with my production, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre Oct/Nov 22 and won the OFFIE for 'Best Production'. As a disabled artist I am passionate about making theatre that’s representative of the world we live in, that champions unheard voices and that is authentic and raw. I am committed to trying to change the theatre landscape to represent the disabled community more widely in the arts. I want to make Theatre that puts disabled voices at the centre of the story. I started working professionally as a director in 2016 and have had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. From 2018-2021 I worked as the assistant director and producer at The Guildford Shakespeare Company working on site specific theatre.",
+  "aboutMeText": "Indiana (she/her), is a theatre director and is currently Resident Associate Director at Shakespeare’s Globe. She won the 2022 JMK Young Directors Award with her production of, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre Oct/Nov 22 and won the OFFIE for 'Best Production'. Indiana is also currently nominated for ‘Best Debut Director’ at ‘The Stage Debut Awards’. Indiana started working professionally as a director in 2016 and has had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. As an artist Indiana thrives to push boundaries; prioritising working with an uninhibited perspective and wants to make theatre that will evolve her artistic practice towards discovering radical yet sincere forms of expression. Indiana aims to tell stories that expand our understanding of the time and culture we live in. As a disabled artist she is passionate about making theatre that puts disabled voices at the centre of the story and igniting a new way of presenting theatre.",
   "profileImage": "/public/admin/imageUploads/1l9wmwti_400x400.jpeg",
   "aboutMeImageAlt": "A production shot of the Alice and Phil on the bed, from 'The Solid Life Of Sugar Water'",
   "aboutMeImage": "/public/admin/imageUploads/whatsapp-image-2022-10-22-at-18.03.28.jpeg"
