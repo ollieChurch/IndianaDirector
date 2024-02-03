@@ -94,9 +94,9 @@
         <div class="py-4 featured-shows-wrapper bg-opacity-50">
             <b-container>
                 <h2 class="display-2">Featured Shows</h2>
-                <div class="row">
+                <div class="d-flex flex-wrap justify-content-center gap-2">
                     <div
-                        class="col-lg my-3"
+                        class="col-lg-5 my-3"
                         v-for="show in content.featuredShowsList"
                         :key="`${show.showTitle}-card`"
                     >
