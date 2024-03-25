@@ -13,7 +13,7 @@
 		<div ref="about">
 			<AboutMe
 				:aboutMeText="content.aboutMeText"
-				:aboutMeImage="content.aboutMeIamge"
+				:aboutMeImage="content.aboutMeImage"
 				:twitterLink="content.twitterLink"
 				@goToContact="scrollMeTo('contact')"
 			/>
