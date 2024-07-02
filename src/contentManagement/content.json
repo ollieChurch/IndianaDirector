@@ -61,22 +61,6 @@
       "showImageSrc": "/public/admin/imageUploads/purpleprincess.jpeg",
       "showImageAlt": "Cartoon of princess inviting you to join her on the modern day train",
       "showImageCopyright": "Guildford Shakespeare Company"
-    },
-    {
-      "showTitle": "Titus Andronicus",
-      "showCompany": "Shakespeare’s Globe",
-      "showText": "Indiana was the assistant director on Titus Andronicus directed by Jude Christian, playing at the Sam Wannamaker Theatre (Shakespeare's Globe) January to April 2023. As the candles burn and the bodies pile up, director Jude Christian explores the macabre madness that takes us to the edge of humanity.",
-      "showImageSrc": "/public/admin/imageUploads/screenshot-2022-12-30-at-13.55.58.png",
-      "showImageAlt": "The poster of 'Titus Andronicus' : A pile of red candles burning with the title in white at the front.",
-      "showImageCopyright": "Shakespeare's Globe"
-    },
-    {
-      "showTitle": "Julius Caesar",
-      "showCompany": "Shakespeare's Globe",
-      "showText": "Indiana was the Resident Assistant Director on Shakespeare’s Globe's production of 'Julius Caesar' directed by Diane Page, which toured the UK and played at the Globe from April to September 2022. Conspiracy to kill, public broadcast of cunning rhetoric, a divisive fight for Greatness. Ancient Rome has never felt closer to home.  When Cassius and Brutus decide Rome’s leader Julius Caesar poses a political threat to their beloved country, there’s only one solution.",
-      "showImageSrc": "/public/admin/imageUploads/juliuscaesar.jpeg",
-      "showImageAlt": "The poster of 'Julius Caesar'. A black woman sits with a cape of roses on her with the title in black to her left.",
-      "showImageCopyright": "Shakespeare's Globe"
     }
   ],
   "currentWorkList": [
@@ -149,12 +133,12 @@
       ]
     }
   ],
-  "otherCredits": "Other credits include: Associate Director: Drop the Dead Donkey (Simon Friend Productions, UK Tour); A Midsummer Night’s Dream and As You Like It (Shakespeare's Globe); The Light at the Piazza (In Concert, Alexandra Palace Theatre); Macbeth (Guildford Shakespeare Company); Merrily We Roll Along (Yvonne Arnaud Theatre). Assistant Director: Titus Andronicus (Shakespeare’s Globe); Julius Caesar (Shakespeare’s Globe and UK Tour); All’s Well That Ends Well (Jermyn Street Theatre); Cinderella (Yvonne Arnaud Theatre); As You Like It, She Stoops to Conquer, The Merry Wives of Windsor, Twelfth Night, Robin Hood, Alice in Wonderland, Romeo and Juliet and The Legend of King Arthur (GSC). Movement Director: The Tales of Hans Christian Andersen and Henry V (GSC).",
+  "otherCredits": "As associate director: Drop the Dead Donkey (U.K. tour) with Simon Friend Productions; Richard III, As You Like It and A Midsummer Night’s Dream at Shakespeare’s Globe; The Light at the Piazza in concert at the Alexandra Palace Theatre and Merrily We Roll Along at the Yvonne Arnaud. As assistant director: Titus Andronicus and Julius Caesar at Shakespeare’s Globe; All’s Well That Ends Well at the Jermyn Street Theatre; Cinderella at the Yvonne Arnaud; All Aboard at the Electric Theatre. As movement director: Romeo and Juliet, Henry V and The Tales of Hans Christian Andersen for GSC. As language coach: Strictly Ballroom the Musical at Leeds Playhouse. She was the assistant director and producer at the Guildford Shakespeare Company (2019–2021), assisting on As You Like It,  She Stoops to Conquer, The Merry Wives of Windsor, Twelfth Night, Robin Hood, Alice in Wonderland, Romeo and Juliet and The Legend of King Arthur; and was associate director on Macbeth. ",
   "twitterLink": "https://twitter.com/indianalown",
   "cvLink": "https://www.linkedin.com/in/indiana-lown-collins",
-  "directorCredits": "Directing: The Solid Life Of Sugar Water (Orange Tree Theatre); Burnt At The Stake (Shakespeare’s Globe); The Purple Princess and Rome and Juliet (Guildford Shakespeare Company); Welcome to Thebes (Performance Preparation Academy); Last Supper (Fresh Direction ‘Replay Project’ The Young Vic)",
+  "directorCredits": "The Solid Life of Sugar Water (Orange Tree Theatre) Burnt at the Stake (Shakespeare’s Globe); Welcome to Thebes (Performance Preparation Academy); Romeo and Juliet and The Purple Princess (Guildford Shakespeare Company); and The Last Supper for the Fresh Direction ‘Replay Project’ at the Young Vic.",
   "cvFile": "/public/admin/imageUploads/indiana-lown-collins-apr24-cv_pdf.pdf",
-  "aboutMeText": "Indiana (she/her), is a theatre maker and director who won the 2022 JMK Young Directors Award with her production of, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre and won the OFFIE for 'Best Production'. She was then nominated for ‘Best Debut Director’ at ‘The Stage Debut Awards’. Indiana was Resident Associate Director at Shakespeare's Globe (2023) where she directed ‘Burnt At The Stake’ a thrilling night of new writing.  Indiana started working professionally as a director in 2016 and has had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. As an artist Indiana thrives to push boundaries; prioritising working with an uninhibited perspective and wants to make theatre that will evolve her artistic practice towards discovering radical yet sincere forms of expression. Indiana aims to tell stories that expand our understanding of the time and culture we live in. As a disabled artist she is passionate about making theatre that puts disabled voices at the centre of the story and igniting a new way of presenting theatre.",
+  "aboutMeText": "Indiana (she/her), is a theatre maker and director who won the 2022 JMK Young Directors Award with her production of, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre and won the OFFIE for 'Best Production'. She was then nominated for ‘Best Debut Director’ at ‘The Stage Debut Awards’. Indiana was Resident Associate Director at Shakespeare's Globe (2023) where she directed ‘Burnt At The Stake’ a thrilling night of new writing.  Indiana started working professionally as a director in 2016 and has had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. As an artist Indiana thrives to push boundaries; prioritising working with an uninhibited perspective making theatre that will evolve her artistic practice towards discovering radical yet sincere forms of expression. As a disabled artist she is passionate about making theatre that puts disabled voices at the centre of the story and igniting a new way of presenting theatre.",
   "profileImage": "/public/admin/imageUploads/1l9wmwti_400x400.jpeg",
   "aboutMeImageAlt": "A rehearsal shot of Indiana at a desk with her assistance dog Alma the standard poodle",
   "aboutMeImage": "/public/admin/imageUploads/3bd085b9-e5bd-4e2e-95a1-c992cdb4c9c5_1_201_a.jpeg"
