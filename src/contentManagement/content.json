@@ -39,20 +39,20 @@
   ],
   "featuredShowsList": [
     {
+      "showTitle": "Burnt At The Stake",
+      "showCompany": "Shakespeare’s Globe",
+      "showText": "Last October Indiana co-directed a night of new writing 'Burnt at the Stake, or The Whole of the Truth' at the Globe Theatre. 13 anonymous writers told the tales that needed to be told in a night of uncensored and fearless storytelling. This was a night for us all to celebrate the power of story and imagination to make positive change.",
+      "showImageSrc": "/public/admin/imageUploads/f9584418-6d9e-403d-9460-48042ef8ae4c_1_201_a.jpeg",
+      "showImageCopyright": "Cesare De Giglio",
+      "showImageAlt": "A production shot of Burnt at the Stake. 3 actors who played witches in the production in an orange palette of burnt clothing in an orange holding hands."
+    },
+    {
       "showTitle": "A Midsummer Night's Dream",
       "showCompany": "Shakespeare's Globe",
-      "showText": "Indiana was Associate Director on 'A Midsummer Night's Dream' directed by Elle While and featuring Shakespeare’s Globe’s Artistic Director Michelle Terry as Puck. On Midsummer’s eve, four rebellious young lovers, a band of ambitious artisan players, and a feuding Fairy King and Queen all cross paths in a riotously enchanted forest. When the shapeshifting, mischief-making Puck, the Fairy King’s servant, is ordered to cast spells on everyone, what could possibly go wrong?  All hell breaks loose as nature, and human nature, are turned upside down and inside out; the forest’s new inhabitants are in for a wild and unsettling night of love, jealousy and utter confusion… but once the nightmare is over, will life be a dream again by morning?",
+      "showText": "Indiana was Resident Associate Director at Shakespeare's Globe in 2023. 'A Midsummer Night's Dream' directed by Elle While was one of the shows she was Associate on. Featuring Shakespeare’s Globe’s Artistic Director Michelle Terry as Puck. On Midsummer’s eve, four rebellious young lovers, a band of ambitious artisan players, and a feuding Fairy King and Queen all cross paths in a riotously enchanted forest. When the shapeshifting, mischief-making Puck, the Fairy King’s servant, is ordered to cast spells on everyone, what could possibly go wrong?  All hell breaks loose as nature, and human nature, are turned upside down and inside out; the forest’s new inhabitants are in for a wild and unsettling night of love, jealousy and utter confusion… but once the nightmare is over, will life be a dream again by morning?",
       "showImageSrc": "/public/admin/imageUploads/4fe8159b-11f5-4195-9cdb-a17141e58aab_1_201_a.jpeg",
       "showImageAlt": "A Midsummer Night's Dream poster featuring Michelle Terry as Puck with leaves and flowers in her hair.",
       "showImageCopyright": "Shakespeare's Globe"
-    },
-    {
-      "showTitle": "The Tales of Hans Christian Andersen",
-      "showCompany": "Guildford Shakespeare Company",
-      "showText": "Indiana was the Movement director and Choreographer for a new adaptation of 'The Tales of Hans Christian Andersen' which played at St Nicholas Church, Guildford in autumn 2021. The Ugly Duckling, Thumbelina, The Little Match-Girl, The Emperor's New Clothes, The Princess and the Pea: the tales of Hans Christian Andersen are some of the most-treasured stories we have all grown up with, and this Autumn we're bringing seven of them to life in a brand new musical. https://www.guildford-shakespeare-company.co.uk/hans-andersen/",
-      "showImageSrc": "/public/admin/imageUploads/screenshot-2022-12-30-at-14.07.24.png",
-      "showImageCopyright": "Guildford Shakespeare Company, photo by Matt Pereira",
-      "showImageAlt": "4 actors are seen on stage. Two of which are wearing glitter wings and singing."
     },
     {
       "showTitle": "The Purple Princess",
@@ -65,15 +65,15 @@
   ],
   "currentWorkList": [
     {
-      "currentWorkTitle": "Burnt At The Stake",
-      "currentWorkText": "Last October Indiana co-directed a night of new writing 'Burnt at the Stake, or The Whole of the Truth' at the Globe Theatre. 13 anonymous writers told the tales that needed to be told in a night of uncensored and fearless storytelling. This was a night for us all to celebrate the power of story and imagination to make positive change.",
+      "currentWorkTitle": "Pinocchio by Michael Morpurgo, adapted by Simon Reade",
+      "currentWorkText": "Indiana Lown-Collins and Elle While (Co-Directors) are thrilled to be bringing Simon Reade’s adaptation of Michael Morpurgo’s artfully told, funny and anarchic story of our favourite puppet boy Pinocchio to life at The Watermill Theatre. We’re excited for audiences to join us on an adventure into a magical world where things aren’t always what they seem.",
       "currentWorkImages": [
         {
-          "workImage": "/public/admin/imageUploads/f9584418-6d9e-403d-9460-48042ef8ae4c_1_201_a.jpeg",
-          "workImageAlt": "a photograph of 3 actors (Sam Buttery, Mariah Louca and Mary Malone) holding hands on the Globe stage 'Burnt At The Stake' or 'The Whole Truth'"
+          "workImage": "/public/admin/imageUploads/screenshot-2024-09-22-at-07.45.17.png",
+          "workImageAlt": "The Poster of Pinocchio. A blue background with the word Pinocchio on puppet strings. Image copyright belongs to The Watermill Theatre"
         }
       ],
-      "currentWorkTickets": "https://basket.shakespearesglobe.com/31964/31965?_gl=1*59vtst*_ga*MTk3ODg5MDk3Mi4xNjM1NzU1OTQz*_ga_D35TZ7P21G*MTY5NDg4NTY5NS41OS4xLjE2OTQ4ODYyNDguNDcuMC4w&queueittoken=e_generalnew~q_22e28d9b-4bdd-4634-aee9-b2b894190bf8~ts_1694886670~ce_true~rt_safetynet~h_de008e8621a5847facf97085a8667dd812fe1887d34e45f9a64565e59847ba28"
+      "currentWorkTickets": "https://www.watermill.org.uk/pinocchio#dates-ttab"
     },
     {
       "currentWorkText": "Indiana directed her JMK Award winning production 'The Solid Life Of Sugar Water' by Jack Thorne which played at The Orange Tree Theatre in Richmond in autumn 2022. The Solid Life of Sugar Water is a beautifully told, witty and impassioned personal story. It amplifies disabled voices as an integral part of the play, and provides representation of a community that often goes unseen and unheard.      Please find more information on the show below.  https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water/about",
