@@ -8,7 +8,7 @@
 			:includePress="includePress"
 			@navClicked="refName => scrollMeTo(refName)"
 		/>
-		<JmkAward />
+		<!-- <JmkAward /> -->
 
 		<div ref="about">
 			<AboutMe
@@ -232,7 +232,7 @@
 	import contentJson from '../contentManagement/content.json'
 	import NavBar from '@/components/NavBar.vue'
 	import GreetingHeader from '@/components/GreetingHeader.vue'
-	import JmkAward from '@/components/JmkAward.vue'
+	// import JmkAward from '@/components/JmkAward.vue'
 	import AboutMe from '@/components/AboutMe.vue'
 
 	export default {
@@ -241,7 +241,7 @@
 		components: {
 			GreetingHeader,
 			NavBar,
-			JmkAward,
+			// JmkAward,
 			AboutMe
 		},
 
