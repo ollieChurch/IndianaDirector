@@ -73,7 +73,25 @@
           "workImageAlt": "The Poster of Pinocchio. A blue background with the word Pinocchio on puppet strings. Image copyright belongs to The Watermill Theatre"
         }
       ],
-      "currentWorkTickets": "https://www.watermill.org.uk/pinocchio#dates-ttab"
+      "currentWorkTickets": "https://www.watermill.org.uk/pinocchio#dates-ttab",
+      "currentWorkReviews": [
+        {
+          "reviewContent": "★★★★★ Every aspect of the stagecraft is outstanding. Simply Glorious",
+          "reviewPublisher": "The Guardian"
+        },
+        {
+          "reviewContent": "★★★★★ Fresh, boisterous production brought to life with ingenuity, talent and flair. Elle While and Indiana Lown-Collins strike a perfect balance between family entertainment and imaginative theatre.",
+          "reviewPublisher": "The Stage"
+        },
+        {
+          "reviewContent": "★★★★★ Exhilarating, joyus, vibrant production",
+          "reviewPublisher": "WhatsOnStage"
+        },
+        {
+          "reviewContent": "★★★★ Folksy entertainment, a restlessly versatile cast and lots of charm",
+          "reviewPublisher": "The Times"
+        }
+      ]
     },
     {
       "currentWorkText": "Indiana directed her JMK Award winning production 'The Solid Life Of Sugar Water' by Jack Thorne which played at The Orange Tree Theatre in Richmond in autumn 2022. The Solid Life of Sugar Water is a beautifully told, witty and impassioned personal story. It amplifies disabled voices as an integral part of the play, and provides representation of a community that often goes unseen and unheard.      Please find more information on the show below.  https://orangetreetheatre.co.uk/whats-on/the-solid-life-of-sugar-water/about",
