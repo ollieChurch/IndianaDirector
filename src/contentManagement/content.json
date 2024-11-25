@@ -2,6 +2,31 @@
   "headerBackgroundImage": "/public/admin/imageUploads/2eb0ef30-2187-41c0-a4fc-956dd208afb2_1_201_a.jpeg",
   "pressList": [
     {
+      "pressQuote": "★★★★★ Every aspect of the stagecraft is outstanding. Simply Glorious",
+      "pressPublisher": "The Guardian",
+      "pressLink": "https://www.theguardian.com/stage/2024/nov/21/michael-morpurgos-pinocchio-review-watermill-theatre-newbury"
+    },
+    {
+      "pressQuote": "★★★★★ Fresh, boisterous production brought to life with ingenuity, talent and flair. Elle While and Indiana Lown-Collins strike a perfect balance between family entertainment and imaginative theatre.",
+      "pressPublisher": "The Stage",
+      "pressLink": "https://www.thestage.co.uk/reviews/pinocchio-review-at-the-watermill-theatre-newbury-by-michael-morpurgo-simon-reade-elle-while-and-indiana-lown-collins"
+    },
+    {
+      "pressQuote": "★★★★★ Exhilarating, joyus, vibrant production",
+      "pressPublisher": "WhatsOnStage",
+      "pressLink": "https://www.whatsonstage.com/news/pinocchio-at-the-watermill-theatre-review_1654391/"
+    },
+    {
+      "pressQuote": "★★★★ Folksy entertainment, a restlessly versatile cast and lots of charm",
+      "pressPublisher": "The Times",
+      "pressLink": "https://www.thetimes.com/culture/theatre-dance/article/michael-morpurgos-pinocchio-review-both-children-and-adults-will-enjoy-it-9333q6q7c"
+    },
+    {
+      "pressQuote": "“I want to make theatre that is authentic to the world we live in”",
+      "pressPublisher": "Interview with The Stage",
+      "pressLink": "https://www.thestage.co.uk/qa/director-indiana-lown-collins-i-want-to-make-theatre-that-is-authentic-to-the-world-we-live-in"
+    },
+    {
       "pressQuote": "★★★★ \"Brilliantly acted, designed and directed, Thorne’s tender but brutally powerful portrait of a couple gets an overdue revival\"",
       "pressPublisher": "The Guardian",
       "pressLink": "https://www.theguardian.com/stage/2022/oct/20/the-solid-life-of-sugar-water-review-jack-thornes-superb-drama-of-love-and-loss"
@@ -17,19 +42,9 @@
       "pressLink": "https://www.standard.co.uk/culture/theatre/the-solid-life-of-sugar-water-review-jack-thorne-b1033974.html"
     },
     {
-      "pressQuote": "★★★★★ “Director Indiana Lown-Collins has humbled the West End in their lack of inclusivity, showing how utterly immaterial disability is to quality of performance”. ",
-      "pressPublisher": "The Spy in the Stalls",
-      "pressLink": "https://thespyinthestalls.com/2022/10/the-solid-life-of-sugar-wate/"
-    },
-    {
       "pressLink": "https://www.thetimes.co.uk/article/the-solid-life-of-sugar-water-review-poetic-writing-and-smashingly-good-performances-mzhjl5nbj",
       "pressPublisher": "The Times",
       "pressQuote": "★★★★ \"Poetic writing...Lown-Collins' astute direction...and smashingly good performances'"
-    },
-    {
-      "pressQuote": "“I want to make theatre that is authentic to the world we live in”",
-      "pressPublisher": "Interview with The Stage",
-      "pressLink": "https://www.thestage.co.uk/qa/director-indiana-lown-collins-i-want-to-make-theatre-that-is-authentic-to-the-world-we-live-in"
     },
     {
       "pressQuote": "★★★★★ \"Inclusive, consistently compelling...A vital, remarkable piece of theatre\"",
@@ -49,7 +64,7 @@
     {
       "showTitle": "A Midsummer Night's Dream",
       "showCompany": "Shakespeare's Globe",
-      "showText": "Indiana was Resident Associate Director at Shakespeare's Globe in 2023. 'A Midsummer Night's Dream' directed by Elle While was one of the shows she was Associate on. Featuring Shakespeare’s Globe’s Artistic Director Michelle Terry as Puck. On Midsummer’s eve, four rebellious young lovers, a band of ambitious artisan players, and a feuding Fairy King and Queen all cross paths in a riotously enchanted forest. When the shapeshifting, mischief-making Puck, the Fairy King’s servant, is ordered to cast spells on everyone, what could possibly go wrong?  All hell breaks loose as nature, and human nature, are turned upside down and inside out; the forest’s new inhabitants are in for a wild and unsettling night of love, jealousy and utter confusion… but once the nightmare is over, will life be a dream again by morning?",
+      "showText": "Indiana was Resident Associate Director at Shakespeare's Globe in 2023. Her role included working as associate on A Midsummer Night's Dream directed by Elle While (starring Michelle Terry) and As You Like It directed by Ellen McDougall . As resident Indiana was an integral part of the creative team from the early development of the productions and a part of the core artistic team within Shakespeare’s Globe throughout the year.",
       "showImageSrc": "/public/admin/imageUploads/4fe8159b-11f5-4195-9cdb-a17141e58aab_1_201_a.jpeg",
       "showImageAlt": "A Midsummer Night's Dream poster featuring Michelle Terry as Puck with leaves and flowers in her hair.",
       "showImageCopyright": "Shakespeare's Globe"
@@ -57,7 +72,7 @@
     {
       "showTitle": "The Purple Princess",
       "showCompany": "Guildford Shakespeare Company",
-      "showText": "This is a new devised play about hidden disabilities based on Indiana's own life experiences. With aspects of forum theatre, she helped create the script which focussed on educating children on seizure awareness and first aid, as well as other issues around hidden disabilities. The show was funded by South Western Railway and toured to 25 schools in three weeks.",
+      "showText": "A new piece of writing, devised and directed by Indiana, where the script focused on seizure awareness through a modern fairytale. The show toured throughout Surrey over a three week run. It was an incredibly rewarding process where we witnessed the impact theatre can have on highlighting unheard voices and a production giving life tools that could save lives.",
       "showImageSrc": "/public/admin/imageUploads/purpleprincess.jpeg",
       "showImageAlt": "Cartoon of princess inviting you to join her on the modern day train",
       "showImageCopyright": "Guildford Shakespeare Company"
@@ -155,7 +170,7 @@
   "twitterLink": "https://twitter.com/indianalown",
   "cvLink": "https://www.linkedin.com/in/indiana-lown-collins",
   "directorCredits": "Pinocchio (The Watermill Theatre); The Solid Life of Sugar Water (Orange Tree Theatre); Burnt at the Stake (Shakespeare’s Globe); Welcome to Thebes (Performance Preparation Academy); Romeo and Juliet and The Purple Princess (Guildford Shakespeare Company); and The Last Supper for the Fresh Direction ‘Replay Project’ at the Young Vic.",
-  "cvFile": "/public/admin/imageUploads/indiana-lown-collins-sep24-cv.pdf",
+  "cvFile": "/public/admin/imageUploads/indiana-lown-collins-nov24-cv.pdf",
   "aboutMeText": "Indiana (she/her), is a theatre maker and director who won the 2022 JMK Directors Award with her production of, ‘The Solid Life of Sugar Water’ by Jack Thorne which played at the Orange Tree Theatre and won the OFFIE for 'Best Production'. She was then nominated for ‘Best Debut Director’ at ‘The Stage Debut Awards’. Indiana was Resident Associate Director at Shakespeare's Globe (2023) where she directed ‘Burnt At The Stake’ a thrilling night of new writing.  Indiana started working professionally as a director in 2016 and has had the privilege of working with new writing, Shakespeare and musicals across a number of different and exciting venues. As an artist Indiana thrives to push boundaries; prioritising working with an uninhibited perspective and making theatre that will evolve her artistic practice towards discovering radical yet sincere forms of expression. As a disabled artist she is passionate about making theatre that puts disabled voices at the centre of the story and igniting a new way of presenting theatre.",
   "profileImage": "/public/admin/imageUploads/1l9wmwti_400x400.jpeg",
   "aboutMeImageAlt": "A rehearsal shot of Indiana at a desk with her assistance dog Alma the standard poodle",
