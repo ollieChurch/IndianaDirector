@@ -13,6 +13,7 @@
                 <p class="pt-2 pb-3">{{ aboutMeText }}</p>
 
                 <div class="d-flex-sm justify-content-around">
+                    /*
                     <b-button
                         variant="custom-primary"
                         size="lg"
@@ -23,6 +24,7 @@
                         Twitter
                         <b-icon-twitter class="ms-2"></b-icon-twitter>
                     </b-button>
+                    */
                     <b-button
                         variant="custom-primary"
                         size="lg"
