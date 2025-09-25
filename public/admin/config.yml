@@ -57,6 +57,14 @@ collections:
               - {label: "Quote", name: "pressQuote", widget: "string"}
               - {label: "Publisher", name: "pressPublisher", widget: "string"}
               - {label: "Link", name: "pressLink", widget: "string"}
+          - {label: "Represented By (true/false)", name: "representedBy", widget: "boolean"}
+          - label: "Agents List"
+            name: "agentsList"
+            widget: "list"
+            fields:
+              - {label: "Agent Name", name: "agentName", widget: "string"}
+              - {label: "Agent Email", name: "agentEmail", widget: "string"}
+              - {label: "Agent Phone", name: "agentPhone", widget: "string"}
               
 site_url: https://indianalowncollins.co.uk
 
